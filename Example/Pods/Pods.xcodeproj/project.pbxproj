@@ -1,0 +1,1576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9B57F867FBC3FE21021F6A3BC68E2941 /* HookDemo */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1F4715650071EC3EFDC6833ACF5C0F11 /* Build configuration list for PBXAggregateTarget "HookDemo" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = HookDemo;
+			productName = HookDemo;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0383024914C857E7265D47E426EA3C18 /* ffi_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = DB632C3D9CCB4B9728259524585318FB /* ffi_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0421FCD3437092458CE48C62F130FD1B /* ffitarget_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F5EF730E959647AD7335E7D680B9F0B5 /* ffitarget_arm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A9F58BAD4146659D83B49C49B614D29 /* fishhook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD324BE36FB0B913D520980089F4271 /* fishhook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E23C7E51F6C936915850DF9900E7DB2 /* Stinger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C28782C56696E7188DEAF1771A9D6125 /* Stinger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FBF062BA4601B87A724D1B9BCD4100E /* ffitarget_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E5D490C8DEE692709250DD0CD43F79 /* ffitarget_i386.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10C351FE1512D6D84054DDB2C1FE64FC /* ffi_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = ECDD235EAFDFA3C120BE410B3CE1CDF6 /* ffi_i386.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14E857E0488A02BC1A80CB5B7BA74042 /* Stinger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 742ED9A9BFF31A8B13B7D72C9BAD10E5 /* Stinger-dummy.m */; };
+		15D1EDB54D66E78F64DFB4223BA0DB12 /* ffi_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B400D5CD499F19CD42FCCFFA97D3100 /* ffi_x86_64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1EA4528313E4546C654A4A4146BA38DC /* ffitarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 8130FAAB87B5528C3A0CF06F32B02B38 /* ffitarget.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		207A3F16B352BB1A9BD05A9333AF3C94 /* ffitarget_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = C06367B2FA20ECF9F606141859EDBF02 /* ffitarget_x86_64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22D4505BC5E3596A823CD708E40C3574 /* STHookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BA005147F01F10171549A1C569F66A6A /* STHookInfo.m */; };
+		29F07F012782E70A40CFCC89C9DA2034 /* ffitarget_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = 4511FC865ED0F1FD5F9BEF99DE7FD511 /* ffitarget_i386.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F8F8AD0A04A8E7DA73E32D79BBA44D4 /* ffi.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA166F4D2FED8A634882E53833583EC /* ffi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3345DE09F89780F4318558FE88633918 /* ffi_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 166165A5D537FE9728804DB87CDBE3CD /* ffi_arm64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42D3A585A6775D23255C12B5CF0C414C /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 97421476AA6DC9AD6D73F03BC08563FD /* JRSwizzle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4F883C81D8A60D4B9516EA92EC78E9F9 /* ffi.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFFF2D07F53BBF5411CEC012844AA2C /* ffi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		533B3D5EA2C5DF73D47948C06F20D557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5EE6906B255C4E31C009AAC5566B8929 /* ffi_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = A46CD8F6C9C398D516C548B6A94EB6B8 /* ffi_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64515E2C55014CCBA1F19D03C61A05EE /* ffi_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = 79FE8919FF15C02C14F4863262AC0B84 /* ffi_arm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69BECC23939A680C71CD34611C944053 /* libffi.a in Sources */ = {isa = PBXBuildFile; fileRef = 1895D8BC8905DD76CBA527786D537B24 /* libffi.a */; };
+		724C6F3FFEE834611903385ACED9A65F /* Aspects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4338EC9FC5006005E3100EFC86B41818 /* Aspects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79AAC59FD93118189625B3C56F4B583F /* JRSwizzle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1482D797FF9E56A8CBFE45A82C6E657E /* JRSwizzle-dummy.m */; };
+		8193B791A21156351CDC21C7A69A5EAD /* StingerParams.h in Headers */ = {isa = PBXBuildFile; fileRef = CD488008ED27FF62C95D17109801D238 /* StingerParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8321E9F2CFDC333DE6E4AADB61E3D152 /* STHookInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 32EB9E549F4A8EBFE8A2BA9765176CFF /* STHookInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		870DDF3965EB30DB37DE2C350E15788C /* fishhook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB925E6A4DE86D4D577025F680B1625B /* fishhook-dummy.m */; };
+		8A9A5FD5802E331139BE335E15528F4D /* ffitarget.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C83A6592658943FBCCA8D6AC1F6EA5 /* ffitarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B2E499EC37D9CDA726B7A8AD20F75D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8BAF9FB33EC8DC3849D973B81B567225 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8CA474D56E7CD51FC6273C962221E62C /* STDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D466DFB0C390FE3D6E7D816A619C06 /* STDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		926C254DD410EF6E74B89BE99E21859F /* BlockHook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8973B6F155CE6F1DBE337ADDD24CB00F /* BlockHook-dummy.m */; };
+		9862BA1C0919DA3864B171414329093C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A2F8DBB3E257EE0C01CE36CD4D24B7E8 /* StingerParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 831793B6ED66F34DD9EE8E7742FE9283 /* StingerParams.m */; };
+		A8FDBDBE9DFDF9FB6858A2C2EE418A4E /* BlockHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC5C9FB882558340ED7B01CB7A57C53 /* BlockHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A954361B6A6FD111452CB9DABC9B30F7 /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2390ABD0592338974CFE2FAFB9056322 /* Aspects-dummy.m */; };
+		AD5ACD608CC6750B4D7BC51511339CA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B2289F6221B03712E38AFE2789D2FA3D /* Stinger.m in Sources */ = {isa = PBXBuildFile; fileRef = D61BC2160B2AC21C4D8A2A5E90869AC6 /* Stinger.m */; };
+		B54FDB7AC633745ADB0AEF07E8F37F51 /* ffitarget_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = E245DB1AEA614B0F7AC405D8714F180D /* ffitarget_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7E7741F548F610926C03D9563148CF5 /* Pods-HookDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73219A4AE58A5910A48E382FB28FC70D /* Pods-HookDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9AEBFEC62BD74FD06529C1EF5C6FEFD /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = FD51EF2BF38E9D81EDAE349AE0923DF6 /* fishhook.c */; };
+		BE858F3E139EF5CB7449B7DF17B34438 /* ffi_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF9EB1804DE2CB21E5A4EFE71C69EBF /* ffi_arm.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0BC658FEACB1E920C804444B27C2103 /* Pods-HookDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1681D723885419D6765724D510FDC0 /* Pods-HookDemo_Example-dummy.m */; };
+		C2D926060970C31E88FD3D93CCB070D6 /* STHookInfoPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C0C8AE11C1018CE1811B6DD827BF94 /* STHookInfoPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6D8A93032BB1D6BBD3CE520EF973C2D /* ffitarget_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA905A1C4E5C06767B484B2416D868F /* ffitarget_arm.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C96EF8312FE759EF07BA75269D22BE32 /* BlockHook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB0D0AE7E41A1E50BD83BF7FA45C9F8 /* BlockHook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCE0F86ACA6AF25C8413EC9003972479 /* Stinger.h in Headers */ = {isa = PBXBuildFile; fileRef = B4403D6E30890CFBA8C96150AB5606C4 /* Stinger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D29807C0AF15AB9973D93D1416EF37EB /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = F54A3A892518D3071C0E8E3581207E04 /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB701FA5CBB166BA330B6AA145A9E602 /* ffi_common.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A16B2F1CB2FB2A308DAA63BC7FA2A0 /* ffi_common.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DCA6E8591E2A7AF841F753F6C77A4ED8 /* STHookInfoPool.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A3BACC46D543174D99E05F88A2C0D0 /* STHookInfoPool.m */; };
+		DF18D70F995E250ADE946ABED218D067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DF36D9C0702E07442045D8453FF28E04 /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 996A1FABBF3E3F56BB30AC280180265E /* JRSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5556F9742DEA9C8F3B0EEB3BAFD8AB0 /* ffitarget_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF527F6C56C632FAF5DEE5CE7CCBC42 /* ffitarget_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9E045C6DCEC92D780897AD067F08543 /* JRSwizzle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF5CC6F8BD470DDA1E9248509131E80 /* JRSwizzle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3C95F14528751BD1188B253E0DB6E2 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D132CAA01360444D71B91792D480D85 /* fishhook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEE11A879FD9D43120089FFCACB18C03 /* STMethodSignature.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CEF7DE36A50DE353538322AB80185A6 /* STMethodSignature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF011E22F3FAA40A03802BC64784B0BB /* ffitarget_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 64BBBB0382C4B7D0B38D3D592BF4606E /* ffitarget_arm64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F51A21D307B9275272758FF324F60B91 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB66CAE1943BB14402FE4020B30ED1D /* Aspects.m */; };
+		F8B4435A2E8C8ECBE4DAC32A654BCD66 /* STMethodSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = FB401DAD75355A739B4F7902F18F68EF /* STMethodSignature.m */; };
+		FA6BD1B6603744D6EF92292AB545FB93 /* BlockHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 163B6BDB1FCBE4AA6215385F92D0B0D5 /* BlockHook.m */; };
+		FE556BC920BCEE02CD19D1D33A565639 /* ffi_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = 5645C03716FFE4C82B3F1722EC16B6C0 /* ffi_i386.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1174947128C6F654548913E883FEAB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B57F867FBC3FE21021F6A3BC68E2941;
+			remoteInfo = HookDemo;
+		};
+		4979EF9A85DC81D0C27FB8AC8FD1CC73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3E3F0EA585AAE8570BE2D08F5EA816E;
+			remoteInfo = JRSwizzle;
+		};
+		52D58AC7B2FF9E8F6226E8B57D1A0BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6CA27F11B7072805184A3B9CC62A8E9;
+			remoteInfo = Stinger;
+		};
+		8583F8F6EE0F0895E6AB5CAEE39CA304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6539905C4D50932B36244650B93C79B;
+			remoteInfo = Aspects;
+		};
+		B67B8D26B9706668639BA4ED260B46DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58CAF5B0291DAB42086F0645150E1791;
+			remoteInfo = fishhook;
+		};
+		CC2F0DB659A27F2D828B749773B93FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACEC240691765BAEC015334327AA6B4A;
+			remoteInfo = BlockHook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05E0DDBE70114DB1C9879BE719D5BB10 /* Stinger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Stinger-Info.plist"; sourceTree = "<group>"; };
+		1482D797FF9E56A8CBFE45A82C6E657E /* JRSwizzle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JRSwizzle-dummy.m"; sourceTree = "<group>"; };
+		163B6BDB1FCBE4AA6215385F92D0B0D5 /* BlockHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlockHook.m; path = BlockHook/BlockHook.m; sourceTree = "<group>"; };
+		166165A5D537FE9728804DB87CDBE3CD /* ffi_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_arm64.h; path = libffi/ffi_arm64.h; sourceTree = "<group>"; };
+		1895D8BC8905DD76CBA527786D537B24 /* libffi.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libffi.a; path = Stinger/Classes/libffi/libffi.a; sourceTree = "<group>"; };
+		1A106685853709E0AE41B5D5B13BE466 /* Pods-HookDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HookDemo_Example.modulemap"; sourceTree = "<group>"; };
+		1B1681D723885419D6765724D510FDC0 /* Pods-HookDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HookDemo_Example-dummy.m"; sourceTree = "<group>"; };
+		1EA166F4D2FED8A634882E53833583EC /* ffi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi.h; path = Stinger/Classes/libffi/ffi.h; sourceTree = "<group>"; };
+		2390ABD0592338974CFE2FAFB9056322 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
+		25C0C8AE11C1018CE1811B6DD827BF94 /* STHookInfoPool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STHookInfoPool.h; path = Stinger/Classes/STHookInfoPool.h; sourceTree = "<group>"; };
+		296074901EC1135225BF29C77D335059 /* Pods-HookDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HookDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2B5EDF448A16C49001900DB9953D14E3 /* fishhook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fishhook.release.xcconfig; sourceTree = "<group>"; };
+		2C29A3D7642BB3BB5F754787EF8CD54A /* Pods-HookDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HookDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E13C4FE7A8D9F7384B857BD3C5E0B86 /* Stinger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Stinger.debug.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32EB9E549F4A8EBFE8A2BA9765176CFF /* STHookInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STHookInfo.h; path = Stinger/Classes/STHookInfo.h; sourceTree = "<group>"; };
+		372807BB0AB94F62A2F32BFD320DAE83 /* BlockHook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BlockHook-Info.plist"; sourceTree = "<group>"; };
+		3CEF7DE36A50DE353538322AB80185A6 /* STMethodSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STMethodSignature.h; path = Stinger/Classes/STMethodSignature.h; sourceTree = "<group>"; };
+		4338EC9FC5006005E3100EFC86B41818 /* Aspects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-umbrella.h"; sourceTree = "<group>"; };
+		434EDE299C4FBAFF7020BEBFAF36B1C0 /* Aspects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Aspects-Info.plist"; sourceTree = "<group>"; };
+		4388E68968AD70C8D9AC74D27719A740 /* fishhook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = fishhook.modulemap; sourceTree = "<group>"; };
+		4511FC865ED0F1FD5F9BEF99DE7FD511 /* ffitarget_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_i386.h; path = libffi/ffitarget_i386.h; sourceTree = "<group>"; };
+		4CFFF2D07F53BBF5411CEC012844AA2C /* ffi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi.h; path = libffi/ffi.h; sourceTree = "<group>"; };
+		55EC0458B67192BD5BB399BAF6539A50 /* Pods-HookDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5645C03716FFE4C82B3F1722EC16B6C0 /* ffi_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_i386.h; path = libffi/ffi_i386.h; sourceTree = "<group>"; };
+		5AF5CC6F8BD470DDA1E9248509131E80 /* JRSwizzle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-umbrella.h"; sourceTree = "<group>"; };
+		5CD3E7F51CCD55240AC280F8A7F742CB /* Pods_HookDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HookDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB66CAE1943BB14402FE4020B30ED1D /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		61DC4A04085D17F4F6CBAB7DF36534EF /* libHookDemo.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libHookDemo.a; path = "HookDemo-0.1.0/ios/libHookDemo.a"; sourceTree = "<group>"; };
+		64BBBB0382C4B7D0B38D3D592BF4606E /* ffitarget_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_arm64.h; path = libffi/ffitarget_arm64.h; sourceTree = "<group>"; };
+		69D466DFB0C390FE3D6E7D816A619C06 /* STDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STDefines.h; path = Stinger/Classes/STDefines.h; sourceTree = "<group>"; };
+		6E6A6737EE547B2A0765ACF11CFFAB43 /* JRSwizzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRSwizzle.debug.xcconfig; sourceTree = "<group>"; };
+		6FC5C9FB882558340ED7B01CB7A57C53 /* BlockHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlockHook.h; path = BlockHook/BlockHook.h; sourceTree = "<group>"; };
+		6FD448D7C742AEE0FCA6AB076CA03529 /* Stinger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Stinger-prefix.pch"; sourceTree = "<group>"; };
+		730E1495188E4225B0937D272D47CFD1 /* BlockHook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlockHook.release.xcconfig; sourceTree = "<group>"; };
+		73219A4AE58A5910A48E382FB28FC70D /* Pods-HookDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HookDemo_Example-umbrella.h"; sourceTree = "<group>"; };
+		742ED9A9BFF31A8B13B7D72C9BAD10E5 /* Stinger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Stinger-dummy.m"; sourceTree = "<group>"; };
+		7914CB4E9FDBD8A9EDB81B6780E3CF11 /* Stinger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Stinger.release.xcconfig; sourceTree = "<group>"; };
+		79FE8919FF15C02C14F4863262AC0B84 /* ffi_arm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_arm.h; path = Stinger/Classes/libffi/ffi_arm.h; sourceTree = "<group>"; };
+		7D43BC8FF919D36562296F404153946F /* HookDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HookDemo.debug.xcconfig; sourceTree = "<group>"; };
+		7D50B20747151C31B48B3EFE98A4086A /* BlockHook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlockHook.debug.xcconfig; sourceTree = "<group>"; };
+		8130FAAB87B5528C3A0CF06F32B02B38 /* ffitarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget.h; path = libffi/ffitarget.h; sourceTree = "<group>"; };
+		813BE52956074CDEF43AF63BA9B98456 /* Pods-HookDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HookDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		81D260F42C5FF5D0CDA62FDE411780B1 /* JRSwizzle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JRSwizzle.modulemap; sourceTree = "<group>"; };
+		831793B6ED66F34DD9EE8E7742FE9283 /* StingerParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StingerParams.m; path = Stinger/Classes/StingerParams.m; sourceTree = "<group>"; };
+		8973B6F155CE6F1DBE337ADDD24CB00F /* BlockHook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlockHook-dummy.m"; sourceTree = "<group>"; };
+		8B2E98667D823A58CE870C4EB7A422B9 /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
+		8B400D5CD499F19CD42FCCFFA97D3100 /* ffi_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_x86_64.h; path = libffi/ffi_x86_64.h; sourceTree = "<group>"; };
+		8D132CAA01360444D71B91792D480D85 /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		94F83F0B5632C03343E6ADA3B3CED1D5 /* Aspects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.release.xcconfig; sourceTree = "<group>"; };
+		97421476AA6DC9AD6D73F03BC08563FD /* JRSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		9808BF74538141204E4EB5B49809FE77 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		996A1FABBF3E3F56BB30AC280180265E /* JRSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		9AA905A1C4E5C06767B484B2416D868F /* ffitarget_arm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_arm.h; path = libffi/ffitarget_arm.h; sourceTree = "<group>"; };
+		9CA216629A7529B075F3AC826470B254 /* fishhook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fishhook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD324BE36FB0B913D520980089F4271 /* fishhook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fishhook-umbrella.h"; sourceTree = "<group>"; };
+		9D64ECF895B52230628818820BC41343 /* Aspects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Aspects.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FF527F6C56C632FAF5DEE5CE7CCBC42 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_x86_64.h; path = Stinger/Classes/libffi/ffitarget_x86_64.h; sourceTree = "<group>"; };
+		9FF9EB1804DE2CB21E5A4EFE71C69EBF /* ffi_arm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_arm.h; path = libffi/ffi_arm.h; sourceTree = "<group>"; };
+		A46CD8F6C9C398D516C548B6A94EB6B8 /* ffi_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_arm64.h; path = Stinger/Classes/libffi/ffi_arm64.h; sourceTree = "<group>"; };
+		AA92A8102C079D07213793414E3875E4 /* fishhook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fishhook.debug.xcconfig; sourceTree = "<group>"; };
+		AB4D6F587E9E182389126259B8F6740A /* BlockHook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlockHook-prefix.pch"; sourceTree = "<group>"; };
+		ACB0D0AE7E41A1E50BD83BF7FA45C9F8 /* BlockHook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlockHook-umbrella.h"; sourceTree = "<group>"; };
+		AD46868AA6335C38597AD59930CB6E40 /* HookDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HookDemo.release.xcconfig; sourceTree = "<group>"; };
+		AFAE4C16152FC0232D01C492163B394B /* fishhook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fishhook-prefix.pch"; sourceTree = "<group>"; };
+		B224D96B31AE341A0870282A24FEFCEA /* Stinger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stinger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EBDC1063B4E5D131CE0B5EDBB422FB /* JRSwizzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRSwizzle.release.xcconfig; sourceTree = "<group>"; };
+		B3A16B2F1CB2FB2A308DAA63BC7FA2A0 /* ffi_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_common.h; path = libffi/ffi_common.h; sourceTree = "<group>"; };
+		B4403D6E30890CFBA8C96150AB5606C4 /* Stinger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Stinger.h; path = Stinger/Classes/Stinger.h; sourceTree = "<group>"; };
+		B7C83A6592658943FBCCA8D6AC1F6EA5 /* ffitarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget.h; path = Stinger/Classes/libffi/ffitarget.h; sourceTree = "<group>"; };
+		BA005147F01F10171549A1C569F66A6A /* STHookInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STHookInfo.m; path = Stinger/Classes/STHookInfo.m; sourceTree = "<group>"; };
+		BB925E6A4DE86D4D577025F680B1625B /* fishhook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "fishhook-dummy.m"; sourceTree = "<group>"; };
+		BF00B9FDD7BB8C94607F8205694252E1 /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0078480890F1AD81FF0D2AEFEABB9E8 /* HookDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HookDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C06367B2FA20ECF9F606141859EDBF02 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_x86_64.h; path = libffi/ffitarget_x86_64.h; sourceTree = "<group>"; };
+		C28782C56696E7188DEAF1771A9D6125 /* Stinger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Stinger-umbrella.h"; sourceTree = "<group>"; };
+		C9D9A67B440E0AB786592F3824CF659A /* Pods-HookDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HookDemo_Example-Info.plist"; sourceTree = "<group>"; };
+		CB05BC296D4A2A464155CE04D10B8E70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CCE17F2B1E602210B8FF3E6F5F70B4D1 /* libffi_bh.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libffi_bh.a; path = libffi/libffi_bh.a; sourceTree = "<group>"; };
+		CD488008ED27FF62C95D17109801D238 /* StingerParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StingerParams.h; path = Stinger/Classes/StingerParams.h; sourceTree = "<group>"; };
+		D19B37735FF92A0E3AD42BFAF939F3E3 /* fishhook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "fishhook-Info.plist"; sourceTree = "<group>"; };
+		D4E5D490C8DEE692709250DD0CD43F79 /* ffitarget_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_i386.h; path = Stinger/Classes/libffi/ffitarget_i386.h; sourceTree = "<group>"; };
+		D5823F9C5F46A9F7674548C29975C4A9 /* BlockHook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlockHook.modulemap; sourceTree = "<group>"; };
+		D61BC2160B2AC21C4D8A2A5E90869AC6 /* Stinger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Stinger.m; path = Stinger/Classes/Stinger.m; sourceTree = "<group>"; };
+		D705BB96524EFEF53C232DDCAC2718E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DB632C3D9CCB4B9728259524585318FB /* ffi_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_x86_64.h; path = Stinger/Classes/libffi/ffi_x86_64.h; sourceTree = "<group>"; };
+		E1CDE8989A6FE3DFD41E4EF62954DB25 /* BlockHook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlockHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E245DB1AEA614B0F7AC405D8714F180D /* ffitarget_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_arm64.h; path = Stinger/Classes/libffi/ffitarget_arm64.h; sourceTree = "<group>"; };
+		E4F0942E53EC8B3AE40873C3424B61EF /* Pods-HookDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E6C8BCB9C1514DA922DAF93A1CD72E29 /* JRSwizzle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-prefix.pch"; sourceTree = "<group>"; };
+		E7A3BACC46D543174D99E05F88A2C0D0 /* STHookInfoPool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STHookInfoPool.m; path = Stinger/Classes/STHookInfoPool.m; sourceTree = "<group>"; };
+		EBA8908D2B03AD6A8B0247285FD02AF7 /* Aspects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.debug.xcconfig; sourceTree = "<group>"; };
+		ECDD235EAFDFA3C120BE410B3CE1CDF6 /* ffi_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_i386.h; path = Stinger/Classes/libffi/ffi_i386.h; sourceTree = "<group>"; };
+		EF6FD23CF196A81DD27D3BE673A5C184 /* JRSwizzle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JRSwizzle-Info.plist"; sourceTree = "<group>"; };
+		F54A3A892518D3071C0E8E3581207E04 /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		F5EF730E959647AD7335E7D680B9F0B5 /* ffitarget_arm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_arm.h; path = Stinger/Classes/libffi/ffitarget_arm.h; sourceTree = "<group>"; };
+		FAB7F97C33F0FA6E10C5D16C6B6D19DB /* Stinger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Stinger.modulemap; sourceTree = "<group>"; };
+		FB401DAD75355A739B4F7902F18F68EF /* STMethodSignature.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STMethodSignature.m; path = Stinger/Classes/STMethodSignature.m; sourceTree = "<group>"; };
+		FD51EF2BF38E9D81EDAE349AE0923DF6 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		FF948ACCE3D12C8B89F800D152EF3783 /* HookDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HookDemo.h; path = HookDemo/Classes/HookDemo.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19A31D61DB0620AC0A9967F2CA7362AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9862BA1C0919DA3864B171414329093C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE9C72DB7E9C16101AB37CD90156CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5ACD608CC6750B4D7BC51511339CA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D08B9D71D63EB979D67588FEDF6579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2E499EC37D9CDA726B7A8AD20F75D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9943FC1B865C20DF2ED50FB7E60CBB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533B3D5EA2C5DF73D47948C06F20D557 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD62DD3C801A328AEADB1C4B3CCA3141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF18D70F995E250ADE946ABED218D067 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8E74E4F12AB22BE83C0DC76B417647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAF9FB33EC8DC3849D973B81B567225 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086899620BC1042D3E0D44464A9929DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D64ECF895B52230628818820BC41343 /* Aspects.modulemap */,
+				2390ABD0592338974CFE2FAFB9056322 /* Aspects-dummy.m */,
+				434EDE299C4FBAFF7020BEBFAF36B1C0 /* Aspects-Info.plist */,
+				8B2E98667D823A58CE870C4EB7A422B9 /* Aspects-prefix.pch */,
+				4338EC9FC5006005E3100EFC86B41818 /* Aspects-umbrella.h */,
+				EBA8908D2B03AD6A8B0247285FD02AF7 /* Aspects.debug.xcconfig */,
+				94F83F0B5632C03343E6ADA3B3CED1D5 /* Aspects.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Aspects";
+			sourceTree = "<group>";
+		};
+		32844EBC45A4FB566021F0FF95AE7311 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4388E68968AD70C8D9AC74D27719A740 /* fishhook.modulemap */,
+				BB925E6A4DE86D4D577025F680B1625B /* fishhook-dummy.m */,
+				D19B37735FF92A0E3AD42BFAF939F3E3 /* fishhook-Info.plist */,
+				AFAE4C16152FC0232D01C492163B394B /* fishhook-prefix.pch */,
+				9CD324BE36FB0B913D520980089F4271 /* fishhook-umbrella.h */,
+				AA92A8102C079D07213793414E3875E4 /* fishhook.debug.xcconfig */,
+				2B5EDF448A16C49001900DB9953D14E3 /* fishhook.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/fishhook";
+			sourceTree = "<group>";
+		};
+		3BFBA21B71AE625DB51F6D703C75A129 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61DC4A04085D17F4F6CBAB7DF36534EF /* libHookDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		452F0AB088A25161BE0D4C3EBBABBC54 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C0078480890F1AD81FF0D2AEFEABB9E8 /* HookDemo.podspec */,
+				CB05BC296D4A2A464155CE04D10B8E70 /* LICENSE */,
+				D705BB96524EFEF53C232DDCAC2718E7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4589C50369DBC5CAFA20A4E8196910E0 /* HookDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FF948ACCE3D12C8B89F800D152EF3783 /* HookDemo.h */,
+				3BFBA21B71AE625DB51F6D703C75A129 /* Frameworks */,
+				452F0AB088A25161BE0D4C3EBBABBC54 /* Pod */,
+				DF37766EBFB7817CC30697A7C7C05B98 /* Support Files */,
+			);
+			name = HookDemo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		46EC60696F13CF7B5ED1284037966805 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		513EE3124F7752E35633C971F5E649FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81D260F42C5FF5D0CDA62FDE411780B1 /* JRSwizzle.modulemap */,
+				1482D797FF9E56A8CBFE45A82C6E657E /* JRSwizzle-dummy.m */,
+				EF6FD23CF196A81DD27D3BE673A5C184 /* JRSwizzle-Info.plist */,
+				E6C8BCB9C1514DA922DAF93A1CD72E29 /* JRSwizzle-prefix.pch */,
+				5AF5CC6F8BD470DDA1E9248509131E80 /* JRSwizzle-umbrella.h */,
+				6E6A6737EE547B2A0765ACF11CFFAB43 /* JRSwizzle.debug.xcconfig */,
+				B2EBDC1063B4E5D131CE0B5EDBB422FB /* JRSwizzle.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JRSwizzle";
+			sourceTree = "<group>";
+		};
+		57B76674BFEFDBDA94AE925D51395C0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5823F9C5F46A9F7674548C29975C4A9 /* BlockHook.modulemap */,
+				8973B6F155CE6F1DBE337ADDD24CB00F /* BlockHook-dummy.m */,
+				372807BB0AB94F62A2F32BFD320DAE83 /* BlockHook-Info.plist */,
+				AB4D6F587E9E182389126259B8F6740A /* BlockHook-prefix.pch */,
+				ACB0D0AE7E41A1E50BD83BF7FA45C9F8 /* BlockHook-umbrella.h */,
+				7D50B20747151C31B48B3EFE98A4086A /* BlockHook.debug.xcconfig */,
+				730E1495188E4225B0937D272D47CFD1 /* BlockHook.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BlockHook";
+			sourceTree = "<group>";
+		};
+		61B6C89B7DE23CA11633BA5163A8F778 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCE17F2B1E602210B8FF3E6F5F70B4D1 /* libffi_bh.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96B427044C3FDD61F54F321B1C6DA919 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				FD51EF2BF38E9D81EDAE349AE0923DF6 /* fishhook.c */,
+				8D132CAA01360444D71B91792D480D85 /* fishhook.h */,
+				32844EBC45A4FB566021F0FF95AE7311 /* Support Files */,
+			);
+			path = fishhook;
+			sourceTree = "<group>";
+		};
+		98C8694CA65AB2F5722AECCBD5D7EE3C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F563330178D78E26724869E103E1291 /* Pods-HookDemo_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9F563330178D78E26724869E103E1291 /* Pods-HookDemo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1A106685853709E0AE41B5D5B13BE466 /* Pods-HookDemo_Example.modulemap */,
+				2C29A3D7642BB3BB5F754787EF8CD54A /* Pods-HookDemo_Example-acknowledgements.markdown */,
+				813BE52956074CDEF43AF63BA9B98456 /* Pods-HookDemo_Example-acknowledgements.plist */,
+				1B1681D723885419D6765724D510FDC0 /* Pods-HookDemo_Example-dummy.m */,
+				296074901EC1135225BF29C77D335059 /* Pods-HookDemo_Example-frameworks.sh */,
+				C9D9A67B440E0AB786592F3824CF659A /* Pods-HookDemo_Example-Info.plist */,
+				73219A4AE58A5910A48E382FB28FC70D /* Pods-HookDemo_Example-umbrella.h */,
+				55EC0458B67192BD5BB399BAF6539A50 /* Pods-HookDemo_Example.debug.xcconfig */,
+				E4F0942E53EC8B3AE40873C3424B61EF /* Pods-HookDemo_Example.release.xcconfig */,
+			);
+			name = "Pods-HookDemo_Example";
+			path = "Target Support Files/Pods-HookDemo_Example";
+			sourceTree = "<group>";
+		};
+		B0F3485635892D6AFE81CA84182993CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB7F97C33F0FA6E10C5D16C6B6D19DB /* Stinger.modulemap */,
+				742ED9A9BFF31A8B13B7D72C9BAD10E5 /* Stinger-dummy.m */,
+				05E0DDBE70114DB1C9879BE719D5BB10 /* Stinger-Info.plist */,
+				6FD448D7C742AEE0FCA6AB076CA03529 /* Stinger-prefix.pch */,
+				C28782C56696E7188DEAF1771A9D6125 /* Stinger-umbrella.h */,
+				2E13C4FE7A8D9F7384B857BD3C5E0B86 /* Stinger.debug.xcconfig */,
+				7914CB4E9FDBD8A9EDB81B6780E3CF11 /* Stinger.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Stinger";
+			sourceTree = "<group>";
+		};
+		B7496BFA64D9F7BF0502F18E50868800 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				F54A3A892518D3071C0E8E3581207E04 /* Aspects.h */,
+				5EB66CAE1943BB14402FE4020B30ED1D /* Aspects.m */,
+				086899620BC1042D3E0D44464A9929DA /* Support Files */,
+			);
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		BEA41B9F7593A29F9AC02D91B53BF1AC /* JRSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				996A1FABBF3E3F56BB30AC280180265E /* JRSwizzle.h */,
+				97421476AA6DC9AD6D73F03BC08563FD /* JRSwizzle.m */,
+				513EE3124F7752E35633C971F5E649FC /* Support Files */,
+			);
+			path = JRSwizzle;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C557161B2F7AFB44E9DEF0DE16E72EA1 /* BlockHook */ = {
+			isa = PBXGroup;
+			children = (
+				6FC5C9FB882558340ED7B01CB7A57C53 /* BlockHook.h */,
+				163B6BDB1FCBE4AA6215385F92D0B0D5 /* BlockHook.m */,
+				4CFFF2D07F53BBF5411CEC012844AA2C /* ffi.h */,
+				9FF9EB1804DE2CB21E5A4EFE71C69EBF /* ffi_arm.h */,
+				166165A5D537FE9728804DB87CDBE3CD /* ffi_arm64.h */,
+				B3A16B2F1CB2FB2A308DAA63BC7FA2A0 /* ffi_common.h */,
+				5645C03716FFE4C82B3F1722EC16B6C0 /* ffi_i386.h */,
+				8B400D5CD499F19CD42FCCFFA97D3100 /* ffi_x86_64.h */,
+				8130FAAB87B5528C3A0CF06F32B02B38 /* ffitarget.h */,
+				9AA905A1C4E5C06767B484B2416D868F /* ffitarget_arm.h */,
+				64BBBB0382C4B7D0B38D3D592BF4606E /* ffitarget_arm64.h */,
+				4511FC865ED0F1FD5F9BEF99DE7FD511 /* ffitarget_i386.h */,
+				C06367B2FA20ECF9F606141859EDBF02 /* ffitarget_x86_64.h */,
+				61B6C89B7DE23CA11633BA5163A8F778 /* Frameworks */,
+				57B76674BFEFDBDA94AE925D51395C0F /* Support Files */,
+			);
+			path = BlockHook;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D9B268043961C2F242D463DC24BA5558 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EF7370E2E3FF0AAF0B565B54C51F52BF /* Pods */,
+				F1C51C3B3904FAAEE5C0F537598C43FF /* Products */,
+				98C8694CA65AB2F5722AECCBD5D7EE3C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9B268043961C2F242D463DC24BA5558 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4589C50369DBC5CAFA20A4E8196910E0 /* HookDemo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DF37766EBFB7817CC30697A7C7C05B98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D43BC8FF919D36562296F404153946F /* HookDemo.debug.xcconfig */,
+				AD46868AA6335C38597AD59930CB6E40 /* HookDemo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HookDemo";
+			sourceTree = "<group>";
+		};
+		E1D62F758A1298A59EE31C97E9E06B74 /* Stinger */ = {
+			isa = PBXGroup;
+			children = (
+				1EA166F4D2FED8A634882E53833583EC /* ffi.h */,
+				79FE8919FF15C02C14F4863262AC0B84 /* ffi_arm.h */,
+				A46CD8F6C9C398D516C548B6A94EB6B8 /* ffi_arm64.h */,
+				ECDD235EAFDFA3C120BE410B3CE1CDF6 /* ffi_i386.h */,
+				DB632C3D9CCB4B9728259524585318FB /* ffi_x86_64.h */,
+				B7C83A6592658943FBCCA8D6AC1F6EA5 /* ffitarget.h */,
+				F5EF730E959647AD7335E7D680B9F0B5 /* ffitarget_arm.h */,
+				E245DB1AEA614B0F7AC405D8714F180D /* ffitarget_arm64.h */,
+				D4E5D490C8DEE692709250DD0CD43F79 /* ffitarget_i386.h */,
+				9FF527F6C56C632FAF5DEE5CE7CCBC42 /* ffitarget_x86_64.h */,
+				1895D8BC8905DD76CBA527786D537B24 /* libffi.a */,
+				69D466DFB0C390FE3D6E7D816A619C06 /* STDefines.h */,
+				32EB9E549F4A8EBFE8A2BA9765176CFF /* STHookInfo.h */,
+				BA005147F01F10171549A1C569F66A6A /* STHookInfo.m */,
+				25C0C8AE11C1018CE1811B6DD827BF94 /* STHookInfoPool.h */,
+				E7A3BACC46D543174D99E05F88A2C0D0 /* STHookInfoPool.m */,
+				B4403D6E30890CFBA8C96150AB5606C4 /* Stinger.h */,
+				D61BC2160B2AC21C4D8A2A5E90869AC6 /* Stinger.m */,
+				CD488008ED27FF62C95D17109801D238 /* StingerParams.h */,
+				831793B6ED66F34DD9EE8E7742FE9283 /* StingerParams.m */,
+				3CEF7DE36A50DE353538322AB80185A6 /* STMethodSignature.h */,
+				FB401DAD75355A739B4F7902F18F68EF /* STMethodSignature.m */,
+				46EC60696F13CF7B5ED1284037966805 /* Frameworks */,
+				B0F3485635892D6AFE81CA84182993CD /* Support Files */,
+			);
+			path = Stinger;
+			sourceTree = "<group>";
+		};
+		EF7370E2E3FF0AAF0B565B54C51F52BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7496BFA64D9F7BF0502F18E50868800 /* Aspects */,
+				C557161B2F7AFB44E9DEF0DE16E72EA1 /* BlockHook */,
+				96B427044C3FDD61F54F321B1C6DA919 /* fishhook */,
+				BEA41B9F7593A29F9AC02D91B53BF1AC /* JRSwizzle */,
+				E1D62F758A1298A59EE31C97E9E06B74 /* Stinger */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1C51C3B3904FAAEE5C0F537598C43FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9808BF74538141204E4EB5B49809FE77 /* Aspects.framework */,
+				E1CDE8989A6FE3DFD41E4EF62954DB25 /* BlockHook.framework */,
+				9CA216629A7529B075F3AC826470B254 /* fishhook.framework */,
+				BF00B9FDD7BB8C94607F8205694252E1 /* JRSwizzle.framework */,
+				5CD3E7F51CCD55240AC280F8A7F742CB /* Pods_HookDemo_Example.framework */,
+				B224D96B31AE341A0870282A24FEFCEA /* Stinger.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		169604F13504ED1AD57929BC571F078E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E045C6DCEC92D780897AD067F08543 /* JRSwizzle-umbrella.h in Headers */,
+				DF36D9C0702E07442045D8453FF28E04 /* JRSwizzle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2395FD5946BAE97453F2E70F34E17CEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96EF8312FE759EF07BA75269D22BE32 /* BlockHook-umbrella.h in Headers */,
+				A8FDBDBE9DFDF9FB6858A2C2EE418A4E /* BlockHook.h in Headers */,
+				4F883C81D8A60D4B9516EA92EC78E9F9 /* ffi.h in Headers */,
+				BE858F3E139EF5CB7449B7DF17B34438 /* ffi_arm.h in Headers */,
+				3345DE09F89780F4318558FE88633918 /* ffi_arm64.h in Headers */,
+				DB701FA5CBB166BA330B6AA145A9E602 /* ffi_common.h in Headers */,
+				FE556BC920BCEE02CD19D1D33A565639 /* ffi_i386.h in Headers */,
+				15D1EDB54D66E78F64DFB4223BA0DB12 /* ffi_x86_64.h in Headers */,
+				1EA4528313E4546C654A4A4146BA38DC /* ffitarget.h in Headers */,
+				C6D8A93032BB1D6BBD3CE520EF973C2D /* ffitarget_arm.h in Headers */,
+				EF011E22F3FAA40A03802BC64784B0BB /* ffitarget_arm64.h in Headers */,
+				29F07F012782E70A40CFCC89C9DA2034 /* ffitarget_i386.h in Headers */,
+				207A3F16B352BB1A9BD05A9333AF3C94 /* ffitarget_x86_64.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F93E54BD32ABF6BEA21002C98722DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724C6F3FFEE834611903385ACED9A65F /* Aspects-umbrella.h in Headers */,
+				D29807C0AF15AB9973D93D1416EF37EB /* Aspects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA867BB3A40133D4C3FA6A77A405F3FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E7741F548F610926C03D9563148CF5 /* Pods-HookDemo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D308BE9B8E281404B1FE217BACEA878C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8F8AD0A04A8E7DA73E32D79BBA44D4 /* ffi.h in Headers */,
+				64515E2C55014CCBA1F19D03C61A05EE /* ffi_arm.h in Headers */,
+				5EE6906B255C4E31C009AAC5566B8929 /* ffi_arm64.h in Headers */,
+				10C351FE1512D6D84054DDB2C1FE64FC /* ffi_i386.h in Headers */,
+				0383024914C857E7265D47E426EA3C18 /* ffi_x86_64.h in Headers */,
+				8A9A5FD5802E331139BE335E15528F4D /* ffitarget.h in Headers */,
+				0421FCD3437092458CE48C62F130FD1B /* ffitarget_arm.h in Headers */,
+				B54FDB7AC633745ADB0AEF07E8F37F51 /* ffitarget_arm64.h in Headers */,
+				0FBF062BA4601B87A724D1B9BCD4100E /* ffitarget_i386.h in Headers */,
+				E5556F9742DEA9C8F3B0EEB3BAFD8AB0 /* ffitarget_x86_64.h in Headers */,
+				8CA474D56E7CD51FC6273C962221E62C /* STDefines.h in Headers */,
+				8321E9F2CFDC333DE6E4AADB61E3D152 /* STHookInfo.h in Headers */,
+				C2D926060970C31E88FD3D93CCB070D6 /* STHookInfoPool.h in Headers */,
+				0E23C7E51F6C936915850DF9900E7DB2 /* Stinger-umbrella.h in Headers */,
+				CCE0F86ACA6AF25C8413EC9003972479 /* Stinger.h in Headers */,
+				8193B791A21156351CDC21C7A69A5EAD /* StingerParams.h in Headers */,
+				EEE11A879FD9D43120089FFCACB18C03 /* STMethodSignature.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ED21DA4320DFD229CC1CB5EB514681 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9F58BAD4146659D83B49C49B614D29 /* fishhook-umbrella.h in Headers */,
+				EE3C95F14528751BD1188B253E0DB6E2 /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		58CAF5B0291DAB42086F0645150E1791 /* fishhook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B07776C492EDFCDF41C1CBA122AEE2B /* Build configuration list for PBXNativeTarget "fishhook" */;
+			buildPhases = (
+				F7ED21DA4320DFD229CC1CB5EB514681 /* Headers */,
+				F03CFBC8A655144B6312F2302772F750 /* Sources */,
+				AD62DD3C801A328AEADB1C4B3CCA3141 /* Frameworks */,
+				8E35C65CE1EFD238418ECB22088CF258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fishhook;
+			productName = fishhook;
+			productReference = 9CA216629A7529B075F3AC826470B254 /* fishhook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3E3F0EA585AAE8570BE2D08F5EA816E /* JRSwizzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E5877357650DD6AC38DEE13A21F047 /* Build configuration list for PBXNativeTarget "JRSwizzle" */;
+			buildPhases = (
+				169604F13504ED1AD57929BC571F078E /* Headers */,
+				82C26FC29914715C9509709BE5148458 /* Sources */,
+				BA8E74E4F12AB22BE83C0DC76B417647 /* Frameworks */,
+				9EDE0E4C4C8082DE36B6AEBD3E243BE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRSwizzle;
+			productName = JRSwizzle;
+			productReference = BF00B9FDD7BB8C94607F8205694252E1 /* JRSwizzle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACEC240691765BAEC015334327AA6B4A /* BlockHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB576AB6953FD6C8B1677F8544369AB6 /* Build configuration list for PBXNativeTarget "BlockHook" */;
+			buildPhases = (
+				2395FD5946BAE97453F2E70F34E17CEA /* Headers */,
+				B24D1CE1C584EABC35C34BE8048BBB40 /* Sources */,
+				8CE9C72DB7E9C16101AB37CD90156CCF /* Frameworks */,
+				EE347A5997B5010989EA54820C56CDE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockHook;
+			productName = BlockHook;
+			productReference = E1CDE8989A6FE3DFD41E4EF62954DB25 /* BlockHook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6539905C4D50932B36244650B93C79B /* Aspects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 481C79F5C07A881793399297BB5B77F1 /* Build configuration list for PBXNativeTarget "Aspects" */;
+			buildPhases = (
+				99F93E54BD32ABF6BEA21002C98722DF /* Headers */,
+				C4AE8E5152CE884778AC9B63E3E90C1A /* Sources */,
+				9943FC1B865C20DF2ED50FB7E60CBB47 /* Frameworks */,
+				9EFB5C01B84AD08B8E3C507B30A26819 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aspects;
+			productName = Aspects;
+			productReference = 9808BF74538141204E4EB5B49809FE77 /* Aspects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E351EA0E92C4D57FBC2E5CA4463B68D6 /* Pods-HookDemo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1887C802B94F66603653551C3E229766 /* Build configuration list for PBXNativeTarget "Pods-HookDemo_Example" */;
+			buildPhases = (
+				AA867BB3A40133D4C3FA6A77A405F3FE /* Headers */,
+				1D9F9B63808E579B06C388B6CCA24FE3 /* Sources */,
+				19A31D61DB0620AC0A9967F2CA7362AE /* Frameworks */,
+				A9B7A7F5D6108814374734CC9B6EB9EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA477741E6BFD195A504D5CD80B4CB7B /* PBXTargetDependency */,
+				6D4029A84EB96AAB75AE6382151552EF /* PBXTargetDependency */,
+				1EB73987A93A092BB18AD413F3846C9D /* PBXTargetDependency */,
+				0DCDF709DCD51D571E14DCD7EEC1C93B /* PBXTargetDependency */,
+				865C2D32D411F4BB4EC1C627BCAEDCF2 /* PBXTargetDependency */,
+				4371F47A93B7C2E887DEC45CB859FDB5 /* PBXTargetDependency */,
+			);
+			name = "Pods-HookDemo_Example";
+			productName = "Pods-HookDemo_Example";
+			productReference = 5CD3E7F51CCD55240AC280F8A7F742CB /* Pods_HookDemo_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6CA27F11B7072805184A3B9CC62A8E9 /* Stinger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D05E3CB41C9C391B394807EBB329CCE /* Build configuration list for PBXNativeTarget "Stinger" */;
+			buildPhases = (
+				D308BE9B8E281404B1FE217BACEA878C /* Headers */,
+				375BEAA336CF7381D51F857F6C4A8973 /* Sources */,
+				91D08B9D71D63EB979D67588FEDF6579 /* Frameworks */,
+				29F07268D0B0CA1889CFD89BBD164823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stinger;
+			productName = Stinger;
+			productReference = B224D96B31AE341A0870282A24FEFCEA /* Stinger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1200;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F1C51C3B3904FAAEE5C0F537598C43FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6539905C4D50932B36244650B93C79B /* Aspects */,
+				ACEC240691765BAEC015334327AA6B4A /* BlockHook */,
+				58CAF5B0291DAB42086F0645150E1791 /* fishhook */,
+				9B57F867FBC3FE21021F6A3BC68E2941 /* HookDemo */,
+				A3E3F0EA585AAE8570BE2D08F5EA816E /* JRSwizzle */,
+				E351EA0E92C4D57FBC2E5CA4463B68D6 /* Pods-HookDemo_Example */,
+				F6CA27F11B7072805184A3B9CC62A8E9 /* Stinger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29F07268D0B0CA1889CFD89BBD164823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E35C65CE1EFD238418ECB22088CF258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDE0E4C4C8082DE36B6AEBD3E243BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFB5C01B84AD08B8E3C507B30A26819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B7A7F5D6108814374734CC9B6EB9EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE347A5997B5010989EA54820C56CDE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D9F9B63808E579B06C388B6CCA24FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BC658FEACB1E920C804444B27C2103 /* Pods-HookDemo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375BEAA336CF7381D51F857F6C4A8973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BECC23939A680C71CD34611C944053 /* libffi.a in Sources */,
+				22D4505BC5E3596A823CD708E40C3574 /* STHookInfo.m in Sources */,
+				DCA6E8591E2A7AF841F753F6C77A4ED8 /* STHookInfoPool.m in Sources */,
+				14E857E0488A02BC1A80CB5B7BA74042 /* Stinger-dummy.m in Sources */,
+				B2289F6221B03712E38AFE2789D2FA3D /* Stinger.m in Sources */,
+				A2F8DBB3E257EE0C01CE36CD4D24B7E8 /* StingerParams.m in Sources */,
+				F8B4435A2E8C8ECBE4DAC32A654BCD66 /* STMethodSignature.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C26FC29914715C9509709BE5148458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AAC59FD93118189625B3C56F4B583F /* JRSwizzle-dummy.m in Sources */,
+				42D3A585A6775D23255C12B5CF0C414C /* JRSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24D1CE1C584EABC35C34BE8048BBB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926C254DD410EF6E74B89BE99E21859F /* BlockHook-dummy.m in Sources */,
+				FA6BD1B6603744D6EF92292AB545FB93 /* BlockHook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AE8E5152CE884778AC9B63E3E90C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A954361B6A6FD111452CB9DABC9B30F7 /* Aspects-dummy.m in Sources */,
+				F51A21D307B9275272758FF324F60B91 /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03CFBC8A655144B6312F2302772F750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870DDF3965EB30DB37DE2C350E15788C /* fishhook-dummy.m in Sources */,
+				B9AEBFEC62BD74FD06529C1EF5C6FEFD /* fishhook.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DCDF709DCD51D571E14DCD7EEC1C93B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JRSwizzle;
+			target = A3E3F0EA585AAE8570BE2D08F5EA816E /* JRSwizzle */;
+			targetProxy = 4979EF9A85DC81D0C27FB8AC8FD1CC73 /* PBXContainerItemProxy */;
+		};
+		1EB73987A93A092BB18AD413F3846C9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HookDemo;
+			target = 9B57F867FBC3FE21021F6A3BC68E2941 /* HookDemo */;
+			targetProxy = 1174947128C6F654548913E883FEAB85 /* PBXContainerItemProxy */;
+		};
+		4371F47A93B7C2E887DEC45CB859FDB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = fishhook;
+			target = 58CAF5B0291DAB42086F0645150E1791 /* fishhook */;
+			targetProxy = B67B8D26B9706668639BA4ED260B46DD /* PBXContainerItemProxy */;
+		};
+		6D4029A84EB96AAB75AE6382151552EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlockHook;
+			target = ACEC240691765BAEC015334327AA6B4A /* BlockHook */;
+			targetProxy = CC2F0DB659A27F2D828B749773B93FF7 /* PBXContainerItemProxy */;
+		};
+		865C2D32D411F4BB4EC1C627BCAEDCF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Stinger;
+			target = F6CA27F11B7072805184A3B9CC62A8E9 /* Stinger */;
+			targetProxy = 52D58AC7B2FF9E8F6226E8B57D1A0BA5 /* PBXContainerItemProxy */;
+		};
+		FA477741E6BFD195A504D5CD80B4CB7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = C6539905C4D50932B36244650B93C79B /* Aspects */;
+			targetProxy = 8583F8F6EE0F0895E6AB5CAEE39CA304 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03D5F83C214924506705C7F580EFEB48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F83F0B5632C03343E6ADA3B3CED1D5 /* Aspects.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Aspects/Aspects-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
+				PRODUCT_MODULE_NAME = Aspects;
+				PRODUCT_NAME = Aspects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34779DF5AAC636F3AE92375F9F6BC2ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA92A8102C079D07213793414E3875E4 /* fishhook.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/fishhook/fishhook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/fishhook/fishhook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/fishhook/fishhook.modulemap";
+				PRODUCT_MODULE_NAME = fishhook;
+				PRODUCT_NAME = fishhook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		652152ECFCD73CE780D9F9C51DB25FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730E1495188E4225B0937D272D47CFD1 /* BlockHook.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlockHook/BlockHook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlockHook/BlockHook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/BlockHook/BlockHook.modulemap";
+				PRODUCT_MODULE_NAME = BlockHook;
+				PRODUCT_NAME = BlockHook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BAC68A2D758EDC4FE0AB18627E888BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA8908D2B03AD6A8B0247285FD02AF7 /* Aspects.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Aspects/Aspects-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
+				PRODUCT_MODULE_NAME = Aspects;
+				PRODUCT_NAME = Aspects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C84326C4352290DA5C559694F24BA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D50B20747151C31B48B3EFE98A4086A /* BlockHook.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlockHook/BlockHook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlockHook/BlockHook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/BlockHook/BlockHook.modulemap";
+				PRODUCT_MODULE_NAME = BlockHook;
+				PRODUCT_NAME = BlockHook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7567B6ED52C068E7622B3635860A89C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F0942E53EC8B3AE40873C3424B61EF /* Pods-HookDemo_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HookDemo_Example/Pods-HookDemo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HookDemo_Example/Pods-HookDemo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		82BFAA046E59B57A00BB5EF7A5F50529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2EBDC1063B4E5D131CE0B5EDBB422FB /* JRSwizzle.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JRSwizzle/JRSwizzle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JRSwizzle/JRSwizzle.modulemap";
+				PRODUCT_MODULE_NAME = JRSwizzle;
+				PRODUCT_NAME = JRSwizzle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84ABC3B8F820F90A100924D94FD08651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55EC0458B67192BD5BB399BAF6539A50 /* Pods-HookDemo_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HookDemo_Example/Pods-HookDemo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HookDemo_Example/Pods-HookDemo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2B32DD808EA7B3A61E5851F147C7728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E13C4FE7A8D9F7384B857BD3C5E0B86 /* Stinger.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Stinger/Stinger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Stinger/Stinger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Stinger/Stinger.modulemap";
+				PRODUCT_MODULE_NAME = Stinger;
+				PRODUCT_NAME = Stinger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D350D23B2ADD301A541B5042E8B01D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E6A6737EE547B2A0765ACF11CFFAB43 /* JRSwizzle.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JRSwizzle/JRSwizzle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JRSwizzle/JRSwizzle.modulemap";
+				PRODUCT_MODULE_NAME = JRSwizzle;
+				PRODUCT_NAME = JRSwizzle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBC4581836470699AC6A98A64B3E4CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B5EDF448A16C49001900DB9953D14E3 /* fishhook.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/fishhook/fishhook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/fishhook/fishhook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/fishhook/fishhook.modulemap";
+				PRODUCT_MODULE_NAME = fishhook;
+				PRODUCT_NAME = fishhook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F180634F2B8A84A763025C6A6240C51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7914CB4E9FDBD8A9EDB81B6780E3CF11 /* Stinger.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Stinger/Stinger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Stinger/Stinger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Stinger/Stinger.modulemap";
+				PRODUCT_MODULE_NAME = Stinger;
+				PRODUCT_NAME = Stinger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAC0E894EF8247CCFF4673E5321C8104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D43BC8FF919D36562296F404153946F /* HookDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC8E46B03502DEF28A9B45F5619ED630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD46868AA6335C38597AD59930CB6E40 /* HookDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1887C802B94F66603653551C3E229766 /* Build configuration list for PBXNativeTarget "Pods-HookDemo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ABC3B8F820F90A100924D94FD08651 /* Debug */,
+				7567B6ED52C068E7622B3635860A89C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B07776C492EDFCDF41C1CBA122AEE2B /* Build configuration list for PBXNativeTarget "fishhook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34779DF5AAC636F3AE92375F9F6BC2ED /* Debug */,
+				DBC4581836470699AC6A98A64B3E4CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F4715650071EC3EFDC6833ACF5C0F11 /* Build configuration list for PBXAggregateTarget "HookDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC0E894EF8247CCFF4673E5321C8104 /* Debug */,
+				FC8E46B03502DEF28A9B45F5619ED630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D05E3CB41C9C391B394807EBB329CCE /* Build configuration list for PBXNativeTarget "Stinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B32DD808EA7B3A61E5851F147C7728 /* Debug */,
+				F180634F2B8A84A763025C6A6240C51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43E5877357650DD6AC38DEE13A21F047 /* Build configuration list for PBXNativeTarget "JRSwizzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D350D23B2ADD301A541B5042E8B01D07 /* Debug */,
+				82BFAA046E59B57A00BB5EF7A5F50529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		481C79F5C07A881793399297BB5B77F1 /* Build configuration list for PBXNativeTarget "Aspects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BAC68A2D758EDC4FE0AB18627E888BE /* Debug */,
+				03D5F83C214924506705C7F580EFEB48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB576AB6953FD6C8B1677F8544369AB6 /* Build configuration list for PBXNativeTarget "BlockHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C84326C4352290DA5C559694F24BA12 /* Debug */,
+				652152ECFCD73CE780D9F9C51DB25FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

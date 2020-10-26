@@ -1,0 +1,39 @@
+PODS:
+  - Aspects (1.4.1)
+  - BlockHook (1.5.11)
+  - fishhook (0.2)
+  - HookDemo (0.1.0)
+  - JRSwizzle (1.0)
+  - Stinger (0.3.0)
+
+DEPENDENCIES:
+  - Aspects
+  - BlockHook
+  - fishhook
+  - HookDemo (from `../`)
+  - JRSwizzle
+  - Stinger
+
+SPEC REPOS:
+  trunk:
+    - Aspects
+    - BlockHook
+    - fishhook
+    - JRSwizzle
+    - Stinger
+
+EXTERNAL SOURCES:
+  HookDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  BlockHook: 8efae289ead7c39f5295761ba8fe72833f48f45f
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+  HookDemo: 4a8a32a70dd7afc7840a62ed65640a2076fecaf0
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  Stinger: e3cda058ca9034eab26701d494fe24da41fd1d2a
+
+PODFILE CHECKSUM: 90404fc9d38cac36978a07adfd06b101c3e878d6
+
+COCOAPODS: 1.9.3

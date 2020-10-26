@@ -1,0 +1,6 @@
+framework module BlockHook {
+  umbrella header "BlockHook-umbrella.h"
+
+  export *
+  module * { export * }
+}

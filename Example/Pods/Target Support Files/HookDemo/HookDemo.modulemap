@@ -1,0 +1,6 @@
+framework module HookDemo {
+  umbrella header "HookDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

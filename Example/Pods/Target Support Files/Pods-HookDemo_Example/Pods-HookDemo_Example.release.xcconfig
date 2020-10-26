@@ -1,0 +1,11 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Aspects" "${PODS_CONFIGURATION_BUILD_DIR}/BlockHook" "${PODS_CONFIGURATION_BUILD_DIR}/JRSwizzle" "${PODS_CONFIGURATION_BUILD_DIR}/Stinger" "${PODS_CONFIGURATION_BUILD_DIR}/fishhook"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Aspects/Aspects.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/BlockHook/BlockHook.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/JRSwizzle/JRSwizzle.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Stinger/Stinger.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/fishhook/fishhook.framework/Headers" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/HookDemo"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../HookDemo-0.1.0/ios" "${PODS_ROOT}/BlockHook/libffi" "${PODS_ROOT}/Stinger/Stinger/Classes/libffi"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"HookDemo" -l"ffi_bh" -framework "Aspects" -framework "BlockHook" -framework "Foundation" -framework "JRSwizzle" -framework "Stinger" -framework "fishhook"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
