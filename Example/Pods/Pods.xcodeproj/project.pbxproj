@@ -15,7 +15,6 @@
 			dependencies = (
 			);
 			name = HookDemo;
-			productName = HookDemo;
 		};
 /* End PBXAggregateTarget section */
 
@@ -153,7 +152,7 @@
 		55EC0458B67192BD5BB399BAF6539A50 /* Pods-HookDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5645C03716FFE4C82B3F1722EC16B6C0 /* ffi_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_i386.h; path = libffi/ffi_i386.h; sourceTree = "<group>"; };
 		5AF5CC6F8BD470DDA1E9248509131E80 /* JRSwizzle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-umbrella.h"; sourceTree = "<group>"; };
-		5CD3E7F51CCD55240AC280F8A7F742CB /* Pods_HookDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HookDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD3E7F51CCD55240AC280F8A7F742CB /* Pods_HookDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HookDemo_Example.framework; path = "Pods-HookDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB66CAE1943BB14402FE4020B30ED1D /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
 		61DC4A04085D17F4F6CBAB7DF36534EF /* libHookDemo.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libHookDemo.a; path = "HookDemo-0.1.0/ios/libHookDemo.a"; sourceTree = "<group>"; };
 		64BBBB0382C4B7D0B38D3D592BF4606E /* ffitarget_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_arm64.h; path = libffi/ffitarget_arm64.h; sourceTree = "<group>"; };
@@ -178,13 +177,13 @@
 		8D132CAA01360444D71B91792D480D85 /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
 		94F83F0B5632C03343E6ADA3B3CED1D5 /* Aspects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.release.xcconfig; sourceTree = "<group>"; };
 		97421476AA6DC9AD6D73F03BC08563FD /* JRSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
-		9808BF74538141204E4EB5B49809FE77 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9808BF74538141204E4EB5B49809FE77 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Aspects.framework; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		996A1FABBF3E3F56BB30AC280180265E /* JRSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
 		9AA905A1C4E5C06767B484B2416D868F /* ffitarget_arm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_arm.h; path = libffi/ffitarget_arm.h; sourceTree = "<group>"; };
-		9CA216629A7529B075F3AC826470B254 /* fishhook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fishhook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA216629A7529B075F3AC826470B254 /* fishhook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = fishhook.framework; path = fishhook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD324BE36FB0B913D520980089F4271 /* fishhook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fishhook-umbrella.h"; sourceTree = "<group>"; };
 		9D64ECF895B52230628818820BC41343 /* Aspects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Aspects.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FF527F6C56C632FAF5DEE5CE7CCBC42 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_x86_64.h; path = Stinger/Classes/libffi/ffitarget_x86_64.h; sourceTree = "<group>"; };
 		9FF9EB1804DE2CB21E5A4EFE71C69EBF /* ffi_arm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_arm.h; path = libffi/ffi_arm.h; sourceTree = "<group>"; };
 		A46CD8F6C9C398D516C548B6A94EB6B8 /* ffi_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_arm64.h; path = Stinger/Classes/libffi/ffi_arm64.h; sourceTree = "<group>"; };
@@ -193,28 +192,28 @@
 		ACB0D0AE7E41A1E50BD83BF7FA45C9F8 /* BlockHook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlockHook-umbrella.h"; sourceTree = "<group>"; };
 		AD46868AA6335C38597AD59930CB6E40 /* HookDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HookDemo.release.xcconfig; sourceTree = "<group>"; };
 		AFAE4C16152FC0232D01C492163B394B /* fishhook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fishhook-prefix.pch"; sourceTree = "<group>"; };
-		B224D96B31AE341A0870282A24FEFCEA /* Stinger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stinger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B224D96B31AE341A0870282A24FEFCEA /* Stinger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Stinger.framework; path = Stinger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2EBDC1063B4E5D131CE0B5EDBB422FB /* JRSwizzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRSwizzle.release.xcconfig; sourceTree = "<group>"; };
 		B3A16B2F1CB2FB2A308DAA63BC7FA2A0 /* ffi_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_common.h; path = libffi/ffi_common.h; sourceTree = "<group>"; };
 		B4403D6E30890CFBA8C96150AB5606C4 /* Stinger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Stinger.h; path = Stinger/Classes/Stinger.h; sourceTree = "<group>"; };
 		B7C83A6592658943FBCCA8D6AC1F6EA5 /* ffitarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget.h; path = Stinger/Classes/libffi/ffitarget.h; sourceTree = "<group>"; };
 		BA005147F01F10171549A1C569F66A6A /* STHookInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STHookInfo.m; path = Stinger/Classes/STHookInfo.m; sourceTree = "<group>"; };
 		BB925E6A4DE86D4D577025F680B1625B /* fishhook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "fishhook-dummy.m"; sourceTree = "<group>"; };
-		BF00B9FDD7BB8C94607F8205694252E1 /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0078480890F1AD81FF0D2AEFEABB9E8 /* HookDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HookDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF00B9FDD7BB8C94607F8205694252E1 /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JRSwizzle.framework; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0078480890F1AD81FF0D2AEFEABB9E8 /* HookDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HookDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C06367B2FA20ECF9F606141859EDBF02 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_x86_64.h; path = libffi/ffitarget_x86_64.h; sourceTree = "<group>"; };
 		C28782C56696E7188DEAF1771A9D6125 /* Stinger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Stinger-umbrella.h"; sourceTree = "<group>"; };
 		C9D9A67B440E0AB786592F3824CF659A /* Pods-HookDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HookDemo_Example-Info.plist"; sourceTree = "<group>"; };
-		CB05BC296D4A2A464155CE04D10B8E70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CB05BC296D4A2A464155CE04D10B8E70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CCE17F2B1E602210B8FF3E6F5F70B4D1 /* libffi_bh.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libffi_bh.a; path = libffi/libffi_bh.a; sourceTree = "<group>"; };
 		CD488008ED27FF62C95D17109801D238 /* StingerParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StingerParams.h; path = Stinger/Classes/StingerParams.h; sourceTree = "<group>"; };
 		D19B37735FF92A0E3AD42BFAF939F3E3 /* fishhook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "fishhook-Info.plist"; sourceTree = "<group>"; };
 		D4E5D490C8DEE692709250DD0CD43F79 /* ffitarget_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_i386.h; path = Stinger/Classes/libffi/ffitarget_i386.h; sourceTree = "<group>"; };
 		D5823F9C5F46A9F7674548C29975C4A9 /* BlockHook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlockHook.modulemap; sourceTree = "<group>"; };
 		D61BC2160B2AC21C4D8A2A5E90869AC6 /* Stinger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Stinger.m; path = Stinger/Classes/Stinger.m; sourceTree = "<group>"; };
-		D705BB96524EFEF53C232DDCAC2718E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D705BB96524EFEF53C232DDCAC2718E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DB632C3D9CCB4B9728259524585318FB /* ffi_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_x86_64.h; path = Stinger/Classes/libffi/ffi_x86_64.h; sourceTree = "<group>"; };
-		E1CDE8989A6FE3DFD41E4EF62954DB25 /* BlockHook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlockHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CDE8989A6FE3DFD41E4EF62954DB25 /* BlockHook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BlockHook.framework; path = BlockHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E245DB1AEA614B0F7AC405D8714F180D /* ffitarget_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_arm64.h; path = Stinger/Classes/libffi/ffitarget_arm64.h; sourceTree = "<group>"; };
 		E4F0942E53EC8B3AE40873C3424B61EF /* Pods-HookDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E6C8BCB9C1514DA922DAF93A1CD72E29 /* JRSwizzle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-prefix.pch"; sourceTree = "<group>"; };
@@ -226,7 +225,7 @@
 		F5EF730E959647AD7335E7D680B9F0B5 /* ffitarget_arm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_arm.h; path = Stinger/Classes/libffi/ffitarget_arm.h; sourceTree = "<group>"; };
 		FAB7F97C33F0FA6E10C5D16C6B6D19DB /* Stinger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Stinger.modulemap; sourceTree = "<group>"; };
 		FB401DAD75355A739B4F7902F18F68EF /* STMethodSignature.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STMethodSignature.m; path = Stinger/Classes/STMethodSignature.m; sourceTree = "<group>"; };
-		FD51EF2BF38E9D81EDAE349AE0923DF6 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		FD51EF2BF38E9D81EDAE349AE0923DF6 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; path = fishhook.c; sourceTree = "<group>"; };
 		FF948ACCE3D12C8B89F800D152EF3783 /* HookDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HookDemo.h; path = HookDemo/Classes/HookDemo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -394,6 +393,7 @@
 				8D132CAA01360444D71B91792D480D85 /* fishhook.h */,
 				32844EBC45A4FB566021F0FF95AE7311 /* Support Files */,
 			);
+			name = fishhook;
 			path = fishhook;
 			sourceTree = "<group>";
 		};
@@ -444,6 +444,7 @@
 				5EB66CAE1943BB14402FE4020B30ED1D /* Aspects.m */,
 				086899620BC1042D3E0D44464A9929DA /* Support Files */,
 			);
+			name = Aspects;
 			path = Aspects;
 			sourceTree = "<group>";
 		};
@@ -454,6 +455,7 @@
 				97421476AA6DC9AD6D73F03BC08563FD /* JRSwizzle.m */,
 				513EE3124F7752E35633C971F5E649FC /* Support Files */,
 			);
+			name = JRSwizzle;
 			path = JRSwizzle;
 			sourceTree = "<group>";
 		};
@@ -484,6 +486,7 @@
 				61B6C89B7DE23CA11633BA5163A8F778 /* Frameworks */,
 				57B76674BFEFDBDA94AE925D51395C0F /* Support Files */,
 			);
+			name = BlockHook;
 			path = BlockHook;
 			sourceTree = "<group>";
 		};
@@ -553,6 +556,7 @@
 				46EC60696F13CF7B5ED1284037966805 /* Frameworks */,
 				B0F3485635892D6AFE81CA84182993CD /* Support Files */,
 			);
+			name = Stinger;
 			path = Stinger;
 			sourceTree = "<group>";
 		};
@@ -787,7 +791,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -975,7 +979,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Aspects/Aspects-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
 				PRODUCT_MODULE_NAME = Aspects;
@@ -1007,7 +1011,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/fishhook/fishhook-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/fishhook/fishhook-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/fishhook/fishhook.modulemap";
 				PRODUCT_MODULE_NAME = fishhook;
@@ -1048,7 +1052,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1071,12 +1074,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1098,7 +1102,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BlockHook/BlockHook-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BlockHook/BlockHook-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/BlockHook/BlockHook.modulemap";
@@ -1131,7 +1135,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Aspects/Aspects-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
 				PRODUCT_MODULE_NAME = Aspects;
@@ -1162,7 +1166,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BlockHook/BlockHook-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BlockHook/BlockHook-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/BlockHook/BlockHook.modulemap";
@@ -1194,7 +1198,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HookDemo_Example/Pods-HookDemo_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HookDemo_Example/Pods-HookDemo_Example.modulemap";
@@ -1238,7 +1242,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1264,7 +1267,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1293,7 +1296,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JRSwizzle/JRSwizzle-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JRSwizzle/JRSwizzle.modulemap";
 				PRODUCT_MODULE_NAME = JRSwizzle;
@@ -1325,7 +1328,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HookDemo_Example/Pods-HookDemo_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HookDemo_Example/Pods-HookDemo_Example.modulemap";
@@ -1358,7 +1361,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Stinger/Stinger-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Stinger/Stinger-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Stinger/Stinger.modulemap";
 				PRODUCT_MODULE_NAME = Stinger;
@@ -1389,7 +1392,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JRSwizzle/JRSwizzle-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JRSwizzle/JRSwizzle.modulemap";
 				PRODUCT_MODULE_NAME = JRSwizzle;
@@ -1420,7 +1423,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/fishhook/fishhook-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/fishhook/fishhook-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/fishhook/fishhook.modulemap";
 				PRODUCT_MODULE_NAME = fishhook;
@@ -1452,7 +1455,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Stinger/Stinger-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Stinger/Stinger-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Stinger/Stinger.modulemap";
 				PRODUCT_MODULE_NAME = Stinger;
@@ -1474,7 +1477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1487,7 +1490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -44,4 +44,25 @@
 //    [super forwardInvocation:anInvocation];
 //}
 
+
+//+ (BOOL)resolveClassMethod:(SEL)sel {
+//    NSLog(@"----%@", NSStringFromSelector(_cmd));
+//    return [super resolveInstanceMethod:sel];
+//}
+//
+//+ (id)forwardingTargetForSelector:(SEL)aSelector {
+//    NSLog(@"----%@", NSStringFromSelector(_cmd));
+//    return [super forwardingTargetForSelector:aSelector];
+//}
+//
+//+ (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
+//    NSLog(@"----%@", NSStringFromSelector(_cmd));
+//    return [HookDemoObj instanceMethodSignatureForSelector:@selector(loopLogWithCount:)];
+//}
+//
+//+ (void)forwardInvocation:(NSInvocation *)anInvocation {
+//    NSLog(@"----%@", NSStringFromSelector(_cmd));
+//    [super forwardInvocation:anInvocation];
+//}
+
 @end
