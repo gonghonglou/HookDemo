@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CCCBBAC5749F7DE32E59E1B /* Pods_HookDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1324E12CE501DABD8F810078 /* Pods_HookDemo_Example.framework */; };
+		41075263BF3D8DD326468936 /* Pods_HookDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AA9A262F7E9C8060EAF0C4 /* Pods_HookDemo_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -16,37 +16,53 @@
 		6003F59E195388D20070C39A /* HKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* HKAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* HKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* HKViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7558A0D52535FB56000950F1 /* NSObject+LibffiHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558A0D42535FB56000950F1 /* NSObject+LibffiHook.m */; };
-		7558A0EE2536009C000950F1 /* THInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558A0DE2536009C000950F1 /* THInterceptor.m */; };
-		7558A0EF2536009C000950F1 /* THPageDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558A0DF2536009C000950F1 /* THPageDefinition.m */; };
-		7558A0F02536009C000950F1 /* THPageAllocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558A0E22536009C000950F1 /* THPageAllocator.m */; };
-		7558A0F12536009C000950F1 /* THVariadicPageAllocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558A0E52536009C000950F1 /* THVariadicPageAllocator.m */; };
-		7558A0F22536009C000950F1 /* THSimplePageAllocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558A0E72536009C000950F1 /* THSimplePageAllocator.m */; };
-		7558A0F32536009C000950F1 /* THPageVariadicContext_arm64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558A0E92536009C000950F1 /* THPageVariadicContext_arm64.m */; };
-		7558A0F42536009C000950F1 /* THPage_arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 7558A0EA2536009C000950F1 /* THPage_arm64.s */; };
-		7558A0F52536009C000950F1 /* THPageVar_arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 7558A0ED2536009C000950F1 /* THPageVar_arm64.s */; };
+		7516F2562547FB0E000EA8A5 /* HKPerformanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F2552547FB0E000EA8A5 /* HKPerformanceTests.m */; };
+		7516F2972547FB64000EA8A5 /* THInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F2682547FB63000EA8A5 /* THInterceptor.m */; };
+		7516F2982547FB64000EA8A5 /* THPageDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F2692547FB63000EA8A5 /* THPageDefinition.m */; };
+		7516F2992547FB64000EA8A5 /* THPageAllocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F26C2547FB63000EA8A5 /* THPageAllocator.m */; };
+		7516F29A2547FB64000EA8A5 /* THVariadicPageAllocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F26F2547FB63000EA8A5 /* THVariadicPageAllocator.m */; };
+		7516F29B2547FB64000EA8A5 /* THSimplePageAllocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F2712547FB63000EA8A5 /* THSimplePageAllocator.m */; };
+		7516F29C2547FB64000EA8A5 /* THPageVariadicContext_arm64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F2732547FB63000EA8A5 /* THPageVariadicContext_arm64.m */; };
+		7516F29D2547FB64000EA8A5 /* THPage_arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 7516F2742547FB63000EA8A5 /* THPage_arm64.s */; };
+		7516F29E2547FB64000EA8A5 /* THPageVar_arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 7516F2772547FB63000EA8A5 /* THPageVar_arm64.s */; };
+		7516F29F2547FB64000EA8A5 /* MHCallTrace.c in Sources */ = {isa = PBXBuildFile; fileRef = 7516F27A2547FB63000EA8A5 /* MHCallTrace.c */; };
+		7516F2A02547FB64000EA8A5 /* TPRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F27B2547FB63000EA8A5 /* TPRecordCell.m */; };
+		7516F2A12547FB64000EA8A5 /* hookObjcMsgSend-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 7516F27D2547FB63000EA8A5 /* hookObjcMsgSend-arm64.s */; };
+		7516F2A22547FB64000EA8A5 /* UIWindow+CallRecordShake.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F27E2547FB63000EA8A5 /* UIWindow+CallRecordShake.m */; };
+		7516F2A32547FB64000EA8A5 /* TPRecordHierarchyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F2812547FB63000EA8A5 /* TPRecordHierarchyModel.m */; };
+		7516F2A42547FB64000EA8A5 /* TPRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F2822547FB63000EA8A5 /* TPRecordModel.m */; };
+		7516F2A52547FB64000EA8A5 /* TPExpandIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7516F2842547FB63000EA8A5 /* TPExpandIcon.png */; };
+		7516F2A62547FB64000EA8A5 /* TPNOExpandIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7516F2852547FB63000EA8A5 /* TPNOExpandIcon.png */; };
+		7516F2A72547FB64000EA8A5 /* TimeProfilerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F2872547FB63000EA8A5 /* TimeProfilerVC.m */; };
+		7516F2A82547FB64000EA8A5 /* hookObjcMsgSend.py in Resources */ = {isa = PBXBuildFile; fileRef = 7516F2882547FB63000EA8A5 /* hookObjcMsgSend.py */; };
+		7516F2A92547FB64000EA8A5 /* HookDemoObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F28B2547FB63000EA8A5 /* HookDemoObj.m */; };
+		7516F2AA2547FB64000EA8A5 /* HookDemoObj+HK.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F28C2547FB63000EA8A5 /* HookDemoObj+HK.m */; };
+		7516F2AB2547FB64000EA8A5 /* NSObject+LibffiHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F2912547FB63000EA8A5 /* NSObject+LibffiHook.m */; };
+		7516F2AC2547FB64000EA8A5 /* LibffiHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F2922547FB63000EA8A5 /* LibffiHook.m */; };
+		7516F2AD2547FB64000EA8A5 /* SMCallTraceCore.c in Sources */ = {isa = PBXBuildFile; fileRef = 7516F2962547FB64000EA8A5 /* SMCallTraceCore.c */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A524EE47251D8D5B007B33BC /* SMCallTraceCore.c in Sources */ = {isa = PBXBuildFile; fileRef = A524EE46251D8D5B007B33BC /* SMCallTraceCore.c */; };
-		A52557D32521D6530068FEC0 /* MHCallTrace.c in Sources */ = {isa = PBXBuildFile; fileRef = A52557C42521D6530068FEC0 /* MHCallTrace.c */; };
-		A52557D42521D6530068FEC0 /* TPRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A52557C52521D6530068FEC0 /* TPRecordCell.m */; };
-		A52557D52521D6530068FEC0 /* hookObjcMsgSend-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = A52557C72521D6530068FEC0 /* hookObjcMsgSend-arm64.s */; };
-		A52557D62521D6530068FEC0 /* UIWindow+CallRecordShake.m in Sources */ = {isa = PBXBuildFile; fileRef = A52557C82521D6530068FEC0 /* UIWindow+CallRecordShake.m */; };
-		A52557D72521D6530068FEC0 /* TPRecordHierarchyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A52557CB2521D6530068FEC0 /* TPRecordHierarchyModel.m */; };
-		A52557D82521D6530068FEC0 /* TPRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A52557CC2521D6530068FEC0 /* TPRecordModel.m */; };
-		A52557D92521D6530068FEC0 /* TPExpandIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A52557CE2521D6530068FEC0 /* TPExpandIcon.png */; };
-		A52557DA2521D6530068FEC0 /* TPNOExpandIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A52557CF2521D6530068FEC0 /* TPNOExpandIcon.png */; };
-		A52557DB2521D6530068FEC0 /* TimeProfilerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A52557D12521D6530068FEC0 /* TimeProfilerVC.m */; };
-		A52557DD2521D85D0068FEC0 /* hookObjcMsgSend.py in Resources */ = {isa = PBXBuildFile; fileRef = A52557DC2521D85C0068FEC0 /* hookObjcMsgSend.py */; };
-		A55C3749252DCF29005F6351 /* HookDemoObj.m in Sources */ = {isa = PBXBuildFile; fileRef = A55C3748252DCF29005F6351 /* HookDemoObj.m */; };
-		A55C374C252DD004005F6351 /* HookDemoObj+HK.m in Sources */ = {isa = PBXBuildFile; fileRef = A55C374B252DD004005F6351 /* HookDemoObj+HK.m */; };
-		A5743A5A253452EC004B675B /* LibffiHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743A59253452EC004B675B /* LibffiHook.m */; };
+		CB0375EB1EE3F1241904E6DB /* Pods_HookDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A21795859C8A702A6DFA57 /* Pods_HookDemo_Tests.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = HookDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		1324E12CE501DABD8F810078 /* Pods_HookDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HookDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18D15E916AC60E46267842B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		344B13D4C4580D736C441CBC /* HookDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HookDemo.podspec; path = ../HookDemo.podspec; sourceTree = "<group>"; };
+		35FED2F96E48EC38958B7A77 /* Pods-HookDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-HookDemo_Example/Pods-HookDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		44AA9A262F7E9C8060EAF0C4 /* Pods_HookDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HookDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* HookDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HookDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,54 +76,64 @@
 		6003F5A5195388D20070C39A /* HKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* HKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* HookDemo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HookDemo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6226B4826D7A214D9FA4983D /* Pods-HookDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-HookDemo_Example/Pods-HookDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6C329349E2FD5A04DAF6C549 /* Pods-HookDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-HookDemo_Example/Pods-HookDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7558A0D32535FB56000950F1 /* NSObject+LibffiHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LibffiHook.h"; sourceTree = "<group>"; };
-		7558A0D42535FB56000950F1 /* NSObject+LibffiHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LibffiHook.m"; sourceTree = "<group>"; };
-		7558A0DC2536009C000950F1 /* THPageDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPageDefinition.h; sourceTree = "<group>"; };
-		7558A0DD2536009C000950F1 /* THInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THInterceptor.h; sourceTree = "<group>"; };
-		7558A0DE2536009C000950F1 /* THInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THInterceptor.m; sourceTree = "<group>"; };
-		7558A0DF2536009C000950F1 /* THPageDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPageDefinition.m; sourceTree = "<group>"; };
-		7558A0E12536009C000950F1 /* THDynamicAllocatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDynamicAllocatorProtocol.h; sourceTree = "<group>"; };
-		7558A0E22536009C000950F1 /* THPageAllocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPageAllocator.m; sourceTree = "<group>"; };
-		7558A0E32536009C000950F1 /* THVariadicPageAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THVariadicPageAllocator.h; sourceTree = "<group>"; };
-		7558A0E42536009C000950F1 /* THSimplePageAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THSimplePageAllocator.h; sourceTree = "<group>"; };
-		7558A0E52536009C000950F1 /* THVariadicPageAllocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THVariadicPageAllocator.m; sourceTree = "<group>"; };
-		7558A0E62536009C000950F1 /* THPageAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPageAllocator.h; sourceTree = "<group>"; };
-		7558A0E72536009C000950F1 /* THSimplePageAllocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THSimplePageAllocator.m; sourceTree = "<group>"; };
-		7558A0E92536009C000950F1 /* THPageVariadicContext_arm64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPageVariadicContext_arm64.m; sourceTree = "<group>"; };
-		7558A0EA2536009C000950F1 /* THPage_arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = THPage_arm64.s; sourceTree = "<group>"; };
-		7558A0EB2536009C000950F1 /* THPageVariadicContext_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPageVariadicContext_arm64.h; sourceTree = "<group>"; };
-		7558A0EC2536009C000950F1 /* THPageDefinition_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPageDefinition_arm64.h; sourceTree = "<group>"; };
-		7558A0ED2536009C000950F1 /* THPageVar_arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = THPageVar_arm64.s; sourceTree = "<group>"; };
+		7516F2552547FB0E000EA8A5 /* HKPerformanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKPerformanceTests.m; sourceTree = "<group>"; };
+		7516F2662547FB63000EA8A5 /* THPageDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPageDefinition.h; sourceTree = "<group>"; };
+		7516F2672547FB63000EA8A5 /* THInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THInterceptor.h; sourceTree = "<group>"; };
+		7516F2682547FB63000EA8A5 /* THInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THInterceptor.m; sourceTree = "<group>"; };
+		7516F2692547FB63000EA8A5 /* THPageDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPageDefinition.m; sourceTree = "<group>"; };
+		7516F26B2547FB63000EA8A5 /* THDynamicAllocatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDynamicAllocatorProtocol.h; sourceTree = "<group>"; };
+		7516F26C2547FB63000EA8A5 /* THPageAllocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPageAllocator.m; sourceTree = "<group>"; };
+		7516F26D2547FB63000EA8A5 /* THVariadicPageAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THVariadicPageAllocator.h; sourceTree = "<group>"; };
+		7516F26E2547FB63000EA8A5 /* THSimplePageAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THSimplePageAllocator.h; sourceTree = "<group>"; };
+		7516F26F2547FB63000EA8A5 /* THVariadicPageAllocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THVariadicPageAllocator.m; sourceTree = "<group>"; };
+		7516F2702547FB63000EA8A5 /* THPageAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPageAllocator.h; sourceTree = "<group>"; };
+		7516F2712547FB63000EA8A5 /* THSimplePageAllocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THSimplePageAllocator.m; sourceTree = "<group>"; };
+		7516F2732547FB63000EA8A5 /* THPageVariadicContext_arm64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPageVariadicContext_arm64.m; sourceTree = "<group>"; };
+		7516F2742547FB63000EA8A5 /* THPage_arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = THPage_arm64.s; sourceTree = "<group>"; };
+		7516F2752547FB63000EA8A5 /* THPageVariadicContext_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPageVariadicContext_arm64.h; sourceTree = "<group>"; };
+		7516F2762547FB63000EA8A5 /* THPageDefinition_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPageDefinition_arm64.h; sourceTree = "<group>"; };
+		7516F2772547FB63000EA8A5 /* THPageVar_arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = THPageVar_arm64.s; sourceTree = "<group>"; };
+		7516F2792547FB63000EA8A5 /* TPRecordHierarchyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRecordHierarchyModel.h; sourceTree = "<group>"; };
+		7516F27A2547FB63000EA8A5 /* MHCallTrace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MHCallTrace.c; sourceTree = "<group>"; };
+		7516F27B2547FB63000EA8A5 /* TPRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRecordCell.m; sourceTree = "<group>"; };
+		7516F27C2547FB63000EA8A5 /* TPRecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRecordModel.h; sourceTree = "<group>"; };
+		7516F27D2547FB63000EA8A5 /* hookObjcMsgSend-arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "hookObjcMsgSend-arm64.s"; sourceTree = "<group>"; };
+		7516F27E2547FB63000EA8A5 /* UIWindow+CallRecordShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CallRecordShake.m"; sourceTree = "<group>"; };
+		7516F27F2547FB63000EA8A5 /* TimeProfilerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeProfilerVC.h; sourceTree = "<group>"; };
+		7516F2802547FB63000EA8A5 /* MHCallTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHCallTrace.h; sourceTree = "<group>"; };
+		7516F2812547FB63000EA8A5 /* TPRecordHierarchyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRecordHierarchyModel.m; sourceTree = "<group>"; };
+		7516F2822547FB63000EA8A5 /* TPRecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRecordModel.m; sourceTree = "<group>"; };
+		7516F2842547FB63000EA8A5 /* TPExpandIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TPExpandIcon.png; sourceTree = "<group>"; };
+		7516F2852547FB63000EA8A5 /* TPNOExpandIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TPNOExpandIcon.png; sourceTree = "<group>"; };
+		7516F2862547FB63000EA8A5 /* TPRecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRecordCell.h; sourceTree = "<group>"; };
+		7516F2872547FB63000EA8A5 /* TimeProfilerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeProfilerVC.m; sourceTree = "<group>"; };
+		7516F2882547FB63000EA8A5 /* hookObjcMsgSend.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = hookObjcMsgSend.py; sourceTree = "<group>"; };
+		7516F2892547FB63000EA8A5 /* UIWindow+CallRecordShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+CallRecordShake.h"; sourceTree = "<group>"; };
+		7516F28B2547FB63000EA8A5 /* HookDemoObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HookDemoObj.m; sourceTree = "<group>"; };
+		7516F28C2547FB63000EA8A5 /* HookDemoObj+HK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HookDemoObj+HK.m"; sourceTree = "<group>"; };
+		7516F28D2547FB63000EA8A5 /* HookDemoObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HookDemoObj.h; sourceTree = "<group>"; };
+		7516F28E2547FB63000EA8A5 /* HookDemoObj+HK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HookDemoObj+HK.h"; sourceTree = "<group>"; };
+		7516F2902547FB63000EA8A5 /* LibffiHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibffiHook.h; sourceTree = "<group>"; };
+		7516F2912547FB63000EA8A5 /* NSObject+LibffiHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LibffiHook.m"; sourceTree = "<group>"; };
+		7516F2922547FB63000EA8A5 /* LibffiHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibffiHook.m; sourceTree = "<group>"; };
+		7516F2932547FB63000EA8A5 /* NSObject+LibffiHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LibffiHook.h"; sourceTree = "<group>"; };
+		7516F2952547FB64000EA8A5 /* SMCallTraceCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallTraceCore.h; sourceTree = "<group>"; };
+		7516F2962547FB64000EA8A5 /* SMCallTraceCore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SMCallTraceCore.c; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A524EE45251D8D5B007B33BC /* SMCallTraceCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallTraceCore.h; sourceTree = "<group>"; };
-		A524EE46251D8D5B007B33BC /* SMCallTraceCore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SMCallTraceCore.c; sourceTree = "<group>"; };
-		A52557C32521D6530068FEC0 /* TPRecordHierarchyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRecordHierarchyModel.h; sourceTree = "<group>"; };
-		A52557C42521D6530068FEC0 /* MHCallTrace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MHCallTrace.c; sourceTree = "<group>"; };
-		A52557C52521D6530068FEC0 /* TPRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRecordCell.m; sourceTree = "<group>"; };
-		A52557C62521D6530068FEC0 /* TPRecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRecordModel.h; sourceTree = "<group>"; };
-		A52557C72521D6530068FEC0 /* hookObjcMsgSend-arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "hookObjcMsgSend-arm64.s"; sourceTree = "<group>"; };
-		A52557C82521D6530068FEC0 /* UIWindow+CallRecordShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CallRecordShake.m"; sourceTree = "<group>"; };
-		A52557C92521D6530068FEC0 /* TimeProfilerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeProfilerVC.h; sourceTree = "<group>"; };
-		A52557CA2521D6530068FEC0 /* MHCallTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHCallTrace.h; sourceTree = "<group>"; };
-		A52557CB2521D6530068FEC0 /* TPRecordHierarchyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRecordHierarchyModel.m; sourceTree = "<group>"; };
-		A52557CC2521D6530068FEC0 /* TPRecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRecordModel.m; sourceTree = "<group>"; };
-		A52557CE2521D6530068FEC0 /* TPExpandIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TPExpandIcon.png; sourceTree = "<group>"; };
-		A52557CF2521D6530068FEC0 /* TPNOExpandIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TPNOExpandIcon.png; sourceTree = "<group>"; };
-		A52557D02521D6530068FEC0 /* TPRecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRecordCell.h; sourceTree = "<group>"; };
-		A52557D12521D6530068FEC0 /* TimeProfilerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeProfilerVC.m; sourceTree = "<group>"; };
-		A52557D22521D6530068FEC0 /* UIWindow+CallRecordShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+CallRecordShake.h"; sourceTree = "<group>"; };
-		A52557DC2521D85C0068FEC0 /* hookObjcMsgSend.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = hookObjcMsgSend.py; sourceTree = "<group>"; };
-		A55C3747252DCF29005F6351 /* HookDemoObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookDemoObj.h; sourceTree = "<group>"; };
-		A55C3748252DCF29005F6351 /* HookDemoObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookDemoObj.m; sourceTree = "<group>"; };
-		A55C374A252DD004005F6351 /* HookDemoObj+HK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HookDemoObj+HK.h"; sourceTree = "<group>"; };
-		A55C374B252DD004005F6351 /* HookDemoObj+HK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HookDemoObj+HK.m"; sourceTree = "<group>"; };
-		A5743A58253452EC004B675B /* LibffiHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibffiHook.h; sourceTree = "<group>"; };
-		A5743A59253452EC004B675B /* LibffiHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibffiHook.m; sourceTree = "<group>"; };
-		C7D462C97F7B058B97B1884B /* Pods-HookDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-HookDemo_Example/Pods-HookDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E84DF4013424EEBE502C3575 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D6698CB0CF4D797849884F4F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E62E5A9AEA9959CE0178C794 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F454C47631A8875706067621 /* Pods-HookDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HookDemo_Tests/Pods-HookDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4A21795859C8A702A6DFA57 /* Pods_HookDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HookDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA54D5CC7FA1E51DF587F0D /* HookDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HookDemo.podspec; path = ../HookDemo.podspec; sourceTree = "<group>"; };
+		FD30601ACE8392B12308833D /* Pods-HookDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-HookDemo_Tests/Pods-HookDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,21 +144,44 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				0CCCBBAC5749F7DE32E59E1B /* Pods_HookDemo_Example.framework in Frameworks */,
+				41075263BF3D8DD326468936 /* Pods_HookDemo_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				CB0375EB1EE3F1241904E6DB /* Pods_HookDemo_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44587DC04F0F13D39F8767FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35FED2F96E48EC38958B7A77 /* Pods-HookDemo_Example.debug.xcconfig */,
+				6C329349E2FD5A04DAF6C549 /* Pods-HookDemo_Example.release.xcconfig */,
+				F454C47631A8875706067621 /* Pods-HookDemo_Tests.debug.xcconfig */,
+				FD30601ACE8392B12308833D /* Pods-HookDemo_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for HookDemo */,
+				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				D4C0E5815155482193E07783 /* Pods */,
+				44587DC04F0F13D39F8767FE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* HookDemo_Example.app */,
+				6003F5AE195388D20070C39A /* HookDemo_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,7 +201,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				1324E12CE501DABD8F810078 /* Pods_HookDemo_Example.framework */,
+				44AA9A262F7E9C8060EAF0C4 /* Pods_HookDemo_Example.framework */,
+				F4A21795859C8A702A6DFA57 /* Pods_HookDemo_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,11 +215,12 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* HKViewController.h */,
 				6003F5A6195388D20070C39A /* HKViewController.m */,
-				A55C3746252DCF0B005F6351 /* Method Swizzling */,
-				A5743A57253452CC004B675B /* LibffiHook */,
-				A524EE44251D8D5B007B33BC /* HookMsgSend */,
-				A52557C22521D6530068FEC0 /* MagicHook */,
-				7558A0DB2536009C000950F1 /* TrampolineHook */,
+				7516F28A2547FB63000EA8A5 /* Method Swizzling */,
+				7516F28F2547FB63000EA8A5 /* LibffiHook */,
+				7516F2942547FB64000EA8A5 /* HookMsgSend */,
+				7516F2782547FB63000EA8A5 /* MagicHook */,
+				7516F2652547FB63000EA8A5 /* TrampolineHook */,
+				7516F2542547FB00000EA8A5 /* Tests */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -188,124 +240,142 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				344B13D4C4580D736C441CBC /* HookDemo.podspec */,
-				18D15E916AC60E46267842B6 /* README.md */,
-				E84DF4013424EEBE502C3575 /* LICENSE */,
+				FAA54D5CC7FA1E51DF587F0D /* HookDemo.podspec */,
+				E62E5A9AEA9959CE0178C794 /* README.md */,
+				D6698CB0CF4D797849884F4F /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		7558A0DB2536009C000950F1 /* TrampolineHook */ = {
+		7516F2542547FB00000EA8A5 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				7558A0E82536009C000950F1 /* arm64 */,
-				7558A0E02536009C000950F1 /* PageAllocator */,
-				7558A0DD2536009C000950F1 /* THInterceptor.h */,
-				7558A0DE2536009C000950F1 /* THInterceptor.m */,
-				7558A0DC2536009C000950F1 /* THPageDefinition.h */,
-				7558A0DF2536009C000950F1 /* THPageDefinition.m */,
+				7516F2552547FB0E000EA8A5 /* HKPerformanceTests.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		7516F2652547FB63000EA8A5 /* TrampolineHook */ = {
+			isa = PBXGroup;
+			children = (
+				7516F2722547FB63000EA8A5 /* arm64 */,
+				7516F26A2547FB63000EA8A5 /* PageAllocator */,
+				7516F2672547FB63000EA8A5 /* THInterceptor.h */,
+				7516F2682547FB63000EA8A5 /* THInterceptor.m */,
+				7516F2662547FB63000EA8A5 /* THPageDefinition.h */,
+				7516F2692547FB63000EA8A5 /* THPageDefinition.m */,
 			);
 			path = TrampolineHook;
 			sourceTree = "<group>";
 		};
-		7558A0E02536009C000950F1 /* PageAllocator */ = {
+		7516F26A2547FB63000EA8A5 /* PageAllocator */ = {
 			isa = PBXGroup;
 			children = (
-				7558A0E12536009C000950F1 /* THDynamicAllocatorProtocol.h */,
-				7558A0E62536009C000950F1 /* THPageAllocator.h */,
-				7558A0E22536009C000950F1 /* THPageAllocator.m */,
-				7558A0E42536009C000950F1 /* THSimplePageAllocator.h */,
-				7558A0E72536009C000950F1 /* THSimplePageAllocator.m */,
-				7558A0E32536009C000950F1 /* THVariadicPageAllocator.h */,
-				7558A0E52536009C000950F1 /* THVariadicPageAllocator.m */,
+				7516F26B2547FB63000EA8A5 /* THDynamicAllocatorProtocol.h */,
+				7516F2702547FB63000EA8A5 /* THPageAllocator.h */,
+				7516F26C2547FB63000EA8A5 /* THPageAllocator.m */,
+				7516F26E2547FB63000EA8A5 /* THSimplePageAllocator.h */,
+				7516F2712547FB63000EA8A5 /* THSimplePageAllocator.m */,
+				7516F26D2547FB63000EA8A5 /* THVariadicPageAllocator.h */,
+				7516F26F2547FB63000EA8A5 /* THVariadicPageAllocator.m */,
 			);
 			path = PageAllocator;
 			sourceTree = "<group>";
 		};
-		7558A0E82536009C000950F1 /* arm64 */ = {
+		7516F2722547FB63000EA8A5 /* arm64 */ = {
 			isa = PBXGroup;
 			children = (
-				7558A0EA2536009C000950F1 /* THPage_arm64.s */,
-				7558A0EC2536009C000950F1 /* THPageDefinition_arm64.h */,
-				7558A0ED2536009C000950F1 /* THPageVar_arm64.s */,
-				7558A0EB2536009C000950F1 /* THPageVariadicContext_arm64.h */,
-				7558A0E92536009C000950F1 /* THPageVariadicContext_arm64.m */,
+				7516F2742547FB63000EA8A5 /* THPage_arm64.s */,
+				7516F2762547FB63000EA8A5 /* THPageDefinition_arm64.h */,
+				7516F2772547FB63000EA8A5 /* THPageVar_arm64.s */,
+				7516F2752547FB63000EA8A5 /* THPageVariadicContext_arm64.h */,
+				7516F2732547FB63000EA8A5 /* THPageVariadicContext_arm64.m */,
 			);
 			path = arm64;
 			sourceTree = "<group>";
 		};
-		A524EE44251D8D5B007B33BC /* HookMsgSend */ = {
+		7516F2782547FB63000EA8A5 /* MagicHook */ = {
 			isa = PBXGroup;
 			children = (
-				A524EE45251D8D5B007B33BC /* SMCallTraceCore.h */,
-				A524EE46251D8D5B007B33BC /* SMCallTraceCore.c */,
-			);
-			path = HookMsgSend;
-			sourceTree = "<group>";
-		};
-		A52557C22521D6530068FEC0 /* MagicHook */ = {
-			isa = PBXGroup;
-			children = (
-				A52557C72521D6530068FEC0 /* hookObjcMsgSend-arm64.s */,
-				A52557DC2521D85C0068FEC0 /* hookObjcMsgSend.py */,
-				A52557CD2521D6530068FEC0 /* icon */,
-				A52557CA2521D6530068FEC0 /* MHCallTrace.h */,
-				A52557C42521D6530068FEC0 /* MHCallTrace.c */,
-				A52557C92521D6530068FEC0 /* TimeProfilerVC.h */,
-				A52557D12521D6530068FEC0 /* TimeProfilerVC.m */,
-				A52557D02521D6530068FEC0 /* TPRecordCell.h */,
-				A52557C52521D6530068FEC0 /* TPRecordCell.m */,
-				A52557C32521D6530068FEC0 /* TPRecordHierarchyModel.h */,
-				A52557CB2521D6530068FEC0 /* TPRecordHierarchyModel.m */,
-				A52557C62521D6530068FEC0 /* TPRecordModel.h */,
-				A52557CC2521D6530068FEC0 /* TPRecordModel.m */,
-				A52557D22521D6530068FEC0 /* UIWindow+CallRecordShake.h */,
-				A52557C82521D6530068FEC0 /* UIWindow+CallRecordShake.m */,
+				7516F27D2547FB63000EA8A5 /* hookObjcMsgSend-arm64.s */,
+				7516F2882547FB63000EA8A5 /* hookObjcMsgSend.py */,
+				7516F2832547FB63000EA8A5 /* icon */,
+				7516F27A2547FB63000EA8A5 /* MHCallTrace.c */,
+				7516F27F2547FB63000EA8A5 /* TimeProfilerVC.h */,
+				7516F2872547FB63000EA8A5 /* TimeProfilerVC.m */,
+				7516F2862547FB63000EA8A5 /* TPRecordCell.h */,
+				7516F27B2547FB63000EA8A5 /* TPRecordCell.m */,
+				7516F2792547FB63000EA8A5 /* TPRecordHierarchyModel.h */,
+				7516F2812547FB63000EA8A5 /* TPRecordHierarchyModel.m */,
+				7516F27C2547FB63000EA8A5 /* TPRecordModel.h */,
+				7516F2822547FB63000EA8A5 /* TPRecordModel.m */,
+				7516F2892547FB63000EA8A5 /* UIWindow+CallRecordShake.h */,
+				7516F27E2547FB63000EA8A5 /* UIWindow+CallRecordShake.m */,
 			);
 			path = MagicHook;
 			sourceTree = "<group>";
 		};
-		A52557CD2521D6530068FEC0 /* icon */ = {
+		7516F2832547FB63000EA8A5 /* icon */ = {
 			isa = PBXGroup;
 			children = (
-				A52557CE2521D6530068FEC0 /* TPExpandIcon.png */,
-				A52557CF2521D6530068FEC0 /* TPNOExpandIcon.png */,
+				7516F2802547FB63000EA8A5 /* MHCallTrace.h */,
+				7516F2842547FB63000EA8A5 /* TPExpandIcon.png */,
+				7516F2852547FB63000EA8A5 /* TPNOExpandIcon.png */,
 			);
 			path = icon;
 			sourceTree = "<group>";
 		};
-		A55C3746252DCF0B005F6351 /* Method Swizzling */ = {
+		7516F28A2547FB63000EA8A5 /* Method Swizzling */ = {
 			isa = PBXGroup;
 			children = (
-				A55C3747252DCF29005F6351 /* HookDemoObj.h */,
-				A55C3748252DCF29005F6351 /* HookDemoObj.m */,
-				A55C374A252DD004005F6351 /* HookDemoObj+HK.h */,
-				A55C374B252DD004005F6351 /* HookDemoObj+HK.m */,
+				7516F28D2547FB63000EA8A5 /* HookDemoObj.h */,
+				7516F28B2547FB63000EA8A5 /* HookDemoObj.m */,
+				7516F28E2547FB63000EA8A5 /* HookDemoObj+HK.h */,
+				7516F28C2547FB63000EA8A5 /* HookDemoObj+HK.m */,
 			);
 			path = "Method Swizzling";
 			sourceTree = "<group>";
 		};
-		A5743A57253452CC004B675B /* LibffiHook */ = {
+		7516F28F2547FB63000EA8A5 /* LibffiHook */ = {
 			isa = PBXGroup;
 			children = (
-				A5743A58253452EC004B675B /* LibffiHook.h */,
-				A5743A59253452EC004B675B /* LibffiHook.m */,
-				7558A0D32535FB56000950F1 /* NSObject+LibffiHook.h */,
-				7558A0D42535FB56000950F1 /* NSObject+LibffiHook.m */,
+				7516F2902547FB63000EA8A5 /* LibffiHook.h */,
+				7516F2922547FB63000EA8A5 /* LibffiHook.m */,
+				7516F2932547FB63000EA8A5 /* NSObject+LibffiHook.h */,
+				7516F2912547FB63000EA8A5 /* NSObject+LibffiHook.m */,
 			);
 			path = LibffiHook;
 			sourceTree = "<group>";
 		};
-		D4C0E5815155482193E07783 /* Pods */ = {
+		7516F2942547FB64000EA8A5 /* HookMsgSend */ = {
 			isa = PBXGroup;
 			children = (
-				6226B4826D7A214D9FA4983D /* Pods-HookDemo_Example.debug.xcconfig */,
-				C7D462C97F7B058B97B1884B /* Pods-HookDemo_Example.release.xcconfig */,
+				7516F2952547FB64000EA8A5 /* SMCallTraceCore.h */,
+				7516F2962547FB64000EA8A5 /* SMCallTraceCore.c */,
 			);
-			path = Pods;
+			path = HookMsgSend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,11 +385,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "HookDemo_Example" */;
 			buildPhases = (
-				8ACDE7DC773EB1E37424A763 /* [CP] Check Pods Manifest.lock */,
+				B845CC8D8D88BC3841CF1025 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				069ACD59057BBC10ACB214D7 /* [CP] Embed Pods Frameworks */,
+				9500EE7C31E79823499C308E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -329,6 +399,26 @@
 			productName = HookDemo;
 			productReference = 6003F58A195388D20070C39A /* HookDemo_Example.app */;
 			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* HookDemo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "HookDemo_Tests" */;
+			buildPhases = (
+				6585C1511A78D4C33192F26D /* [CP] Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+				EABEA02C03BBF81DE9C87083 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = HookDemo_Tests;
+			productName = HookDemoTests;
+			productReference = 6003F5AE195388D20070C39A /* HookDemo_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -342,6 +432,9 @@
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = 5AK2R5W93G;
+					};
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
 			};
@@ -360,6 +453,7 @@
 			projectRoot = "";
 			targets = (
 				6003F589195388D20070C39A /* HookDemo_Example */,
+				6003F5AD195388D20070C39A /* HookDemo_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -369,20 +463,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A52557DD2521D85D0068FEC0 /* hookObjcMsgSend.py in Resources */,
+				7516F2A82547FB64000EA8A5 /* hookObjcMsgSend.py in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				A52557DA2521D6530068FEC0 /* TPNOExpandIcon.png in Resources */,
+				7516F2A62547FB64000EA8A5 /* TPNOExpandIcon.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				A52557D92521D6530068FEC0 /* TPExpandIcon.png in Resources */,
+				7516F2A52547FB64000EA8A5 /* TPExpandIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		069ACD59057BBC10ACB214D7 /* [CP] Embed Pods Frameworks */ = {
+		6585C1511A78D4C33192F26D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HookDemo_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9500EE7C31E79823499C308E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -406,7 +530,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HookDemo_Example/Pods-HookDemo_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8ACDE7DC773EB1E37424A763 /* [CP] Check Pods Manifest.lock */ = {
+		B845CC8D8D88BC3841CF1025 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -428,6 +552,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EABEA02C03BBF81DE9C87083 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HookDemo_Tests/Pods-HookDemo_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
+				"${BUILT_PRODUCTS_DIR}/Stinger/Stinger.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stinger.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HookDemo_Tests/Pods-HookDemo_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -435,39 +579,64 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5743A5A253452EC004B675B /* LibffiHook.m in Sources */,
-				A52557D72521D6530068FEC0 /* TPRecordHierarchyModel.m in Sources */,
+				7516F2982547FB64000EA8A5 /* THPageDefinition.m in Sources */,
+				7516F29E2547FB64000EA8A5 /* THPageVar_arm64.s in Sources */,
+				7516F2A22547FB64000EA8A5 /* UIWindow+CallRecordShake.m in Sources */,
 				6003F59E195388D20070C39A /* HKAppDelegate.m in Sources */,
-				7558A0F52536009C000950F1 /* THPageVar_arm64.s in Sources */,
-				A52557D32521D6530068FEC0 /* MHCallTrace.c in Sources */,
-				A52557DB2521D6530068FEC0 /* TimeProfilerVC.m in Sources */,
-				7558A0EE2536009C000950F1 /* THInterceptor.m in Sources */,
-				A52557D42521D6530068FEC0 /* TPRecordCell.m in Sources */,
-				7558A0F42536009C000950F1 /* THPage_arm64.s in Sources */,
-				A55C3749252DCF29005F6351 /* HookDemoObj.m in Sources */,
-				7558A0EF2536009C000950F1 /* THPageDefinition.m in Sources */,
-				A52557D82521D6530068FEC0 /* TPRecordModel.m in Sources */,
-				7558A0F12536009C000950F1 /* THVariadicPageAllocator.m in Sources */,
-				7558A0F32536009C000950F1 /* THPageVariadicContext_arm64.m in Sources */,
-				7558A0F02536009C000950F1 /* THPageAllocator.m in Sources */,
-				7558A0D52535FB56000950F1 /* NSObject+LibffiHook.m in Sources */,
+				7516F2972547FB64000EA8A5 /* THInterceptor.m in Sources */,
+				7516F2AB2547FB64000EA8A5 /* NSObject+LibffiHook.m in Sources */,
+				7516F2A02547FB64000EA8A5 /* TPRecordCell.m in Sources */,
+				7516F2A92547FB64000EA8A5 /* HookDemoObj.m in Sources */,
+				7516F2A32547FB64000EA8A5 /* TPRecordHierarchyModel.m in Sources */,
+				7516F2A12547FB64000EA8A5 /* hookObjcMsgSend-arm64.s in Sources */,
+				7516F2AC2547FB64000EA8A5 /* LibffiHook.m in Sources */,
 				6003F5A7195388D20070C39A /* HKViewController.m in Sources */,
-				A524EE47251D8D5B007B33BC /* SMCallTraceCore.c in Sources */,
-				A52557D62521D6530068FEC0 /* UIWindow+CallRecordShake.m in Sources */,
-				A55C374C252DD004005F6351 /* HookDemoObj+HK.m in Sources */,
-				A52557D52521D6530068FEC0 /* hookObjcMsgSend-arm64.s in Sources */,
-				7558A0F22536009C000950F1 /* THSimplePageAllocator.m in Sources */,
+				7516F2992547FB64000EA8A5 /* THPageAllocator.m in Sources */,
+				7516F29C2547FB64000EA8A5 /* THPageVariadicContext_arm64.m in Sources */,
+				7516F2AD2547FB64000EA8A5 /* SMCallTraceCore.c in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				7516F2A72547FB64000EA8A5 /* TimeProfilerVC.m in Sources */,
+				7516F29D2547FB64000EA8A5 /* THPage_arm64.s in Sources */,
+				7516F29B2547FB64000EA8A5 /* THSimplePageAllocator.m in Sources */,
+				7516F2A42547FB64000EA8A5 /* TPRecordModel.m in Sources */,
+				7516F29F2547FB64000EA8A5 /* MHCallTrace.c in Sources */,
+				7516F2AA2547FB64000EA8A5 /* HookDemoObj+HK.m in Sources */,
+				7516F29A2547FB64000EA8A5 /* THVariadicPageAllocator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				7516F2562547FB0E000EA8A5 /* HKPerformanceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* HookDemo_Example */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -558,7 +727,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6226B4826D7A214D9FA4983D /* Pods-HookDemo_Example.debug.xcconfig */;
+			baseConfigurationReference = 35FED2F96E48EC38958B7A77 /* Pods-HookDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5AK2R5W93G;
@@ -575,7 +744,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7D462C97F7B058B97B1884B /* Pods-HookDemo_Example.release.xcconfig */;
+			baseConfigurationReference = 6C329349E2FD5A04DAF6C549 /* Pods-HookDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5AK2R5W93G;
@@ -587,6 +756,52 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F454C47631A8875706067621 /* Pods-HookDemo_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HookDemo_Example.app/HookDemo_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD30601ACE8392B12308833D /* Pods-HookDemo_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HookDemo_Example.app/HookDemo_Example";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -607,6 +822,15 @@
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
 				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "HookDemo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

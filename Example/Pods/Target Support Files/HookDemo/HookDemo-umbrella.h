@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "HookDemo.h"
 
 FOUNDATION_EXPORT double HookDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char HookDemoVersionString[];

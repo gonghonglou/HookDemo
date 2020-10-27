@@ -4,11 +4,18 @@ platform :ios, '8.0'
 
 target 'HookDemo_Example' do
   pod 'HookDemo', :path => '../'
-
+  
   pod 'JRSwizzle'
   pod 'Aspects'
   pod 'Stinger'
   pod 'BlockHook'
   pod 'fishhook'
-  
+
+  target 'HookDemo_Tests' do
+    inherit! :search_paths
+
+    pod 'Aspects'
+    pod 'Stinger'
+    
+  end
 end
